@@ -44,6 +44,13 @@ a:hover{
     text-decoration:underline;
 }
 
+p{
+	text-indent:15px;
+	text-align: justify;
+	-moz-text-align-last: right; /* Code for Firefox */
+	text-align-last: right;
+}
+
 blockquote {
 	border-left:1px solid #e5e5e5;
 	margin:0;
