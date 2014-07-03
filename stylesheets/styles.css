@@ -47,8 +47,8 @@ a:hover{
 p{
 	text-indent:15px;
 	text-align: justify;
-	-moz-text-align-last: right; /* Code for Firefox */
-	text-align-last: right;
+	-moz-text-align-last: left; /* Code for Firefox */
+	text-align-last: left;
 }
 
 blockquote {
