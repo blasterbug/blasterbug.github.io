@@ -181,8 +181,8 @@ footer{
 		width:100%;
 	}
 
-	header, section, footer, #icons{
-		width:100%;
+	header, section, footer, footer #icons{
+		max-width:100%;
 		position:static;
 		float:left;
 	}
@@ -210,6 +210,7 @@ footer{
 	}
 
 	footer #icons{
+		width:auto;
 		position:static;
 		margin:2px 2px 2px;
 	}
