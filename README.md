@@ -1,4 +1,4 @@
 blasterbug.github.io
 ====================
 
-gh-pages
+[my github page](http://blasterbug.github.io/glossygloss/ "blasterbug's gh page")
