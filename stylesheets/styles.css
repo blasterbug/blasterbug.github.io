@@ -208,12 +208,12 @@ footer{
 		float:left;
 		height:32px;
 		width:32px;
+		margin:2px;
 	}
 
 	footer #icons{
 		width:auto;
 		position:static;
-		margin:2px 2px 2px;
 	}
 
 	footer #icons p{
