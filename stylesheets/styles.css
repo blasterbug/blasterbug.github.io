@@ -182,7 +182,7 @@ footer{
 	}
 
 	header, section, footer, footer #icons{
-		max-width:100%;
+		max-width:95%;
 		margin:0px 10px 0px;
 		position:static;
 		float:left;
@@ -223,11 +223,11 @@ footer{
 
 @media print, screen and (max-width: 480px) {
 	body {
-		width:100%;
+		width:95%;
 		padding:15px;
 	}
 	header, section, footer, #icons{
-		width:100%;
+		width:95%;
 		position:static;
 		margin:0px 10px 0px;
 	}
