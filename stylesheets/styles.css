@@ -183,6 +183,7 @@ footer{
 
 	header, section, footer, footer #icons{
 		max-width:100%;
+		margin:0px 10px 0px;
 		position:static;
 		float:left;
 	}
@@ -228,6 +229,7 @@ footer{
 	header, section, footer, #icons{
 		width:100%;
 		position:static;
+		margin:0px 10px 0px;
 	}
 	header ul {
 		display:none;
