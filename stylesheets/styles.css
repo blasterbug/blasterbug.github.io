@@ -96,6 +96,11 @@ img {
 	max-width:100%;
 }
 
+strong {
+	color:#444;
+	font-weight:700;
+}
+
 header {
 	width:250px;
 	min-height:200px;
@@ -119,10 +124,6 @@ header li {
 header ul a {
 	color:#39c;
 	display:block;
-}
-
-strong {
-	font-weight:700;
 }
 
 header ul a strong {
@@ -160,10 +161,6 @@ footer p{
     float:right;
 	margin:0px;
 	padding:5px;
-}
-
-#logo{
-	padding:10px 30px 10px;
 }
 
 .icon{
