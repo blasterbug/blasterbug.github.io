@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-	margin:10px 0 10px;
+	margin:0px;
+	padding:5px;
 }
 
 h1, h2, h3 {
@@ -144,23 +145,24 @@ hr {
 	height:1px;
 	margin:0 0 20px;
 }
-footer{
+footer {
 	display:none;
 }
-#icons{
+
+#icons {
 	position:fixed;
 	bottom:0px;
 	margin:10px;
 }
 
-.icon{
+.icon {
 	margin:2px;
 	float:left;
 	height:28px;
 	width:28px;
 }
 
-#icons p{
+#icons p {
 	float:right;
 }
 
@@ -181,55 +183,54 @@ footer{
 		width:100%;
 	}
 
-	header, section, footer, footer #icons{
+	header, section, footer, footer #icons {
 		max-width:95%;
-		margin:0px 10px 0px;
+		padding:0px 10px 0px;
+		margin:0px;
 		position:static;
 		float:left;
-	}
-
-	header{
-		margin:10px;
 	}
 
 	pre, code {
 		word-wrap:normal;
 	}
 
-	header #icons{
+	header #icons {
 		display:none;
 	}
 
-	footer{
+	footer {
 		display:block;
 	}
 
-	footer .icon{
+	footer .icon {
 		float:left;
 		height:32px;
 		width:32px;
 		margin:2px;
 	}
 
-	footer #icons{
+	footer #icons {
 		width:auto;
 		position:static;
 	}
 
-	footer #icons p{
+	footer #icons p {
 		float:right;
 	}
 }
 
 @media print, screen and (max-width: 480px) {
 	body {
-		width:95%;
+		margin:0px;
+		width:100%;
 		padding:15px;
 	}
-	header, section, footer, #icons{
-		width:95%;
+	header, section, footer, #icons {
+		width:100%;
 		position:static;
-		margin:0px 10px 0px;
+		padding:0px 10px 0px;
+		margin:0px;
 	}
 	header ul {
 		display:none;
@@ -244,17 +245,17 @@ footer{
 		display:none;
 	}
 
-	footer{
+	footer {
 		display:block;
 	}
-	footer .icon{
+	footer .icon {
 		margin:2px;
 		float:left;
 		height:32px;
 		width:32px;
 	}
 
-	footer #icons p{
+	footer #icons p {
 		float:right;
 	}
 }
@@ -265,11 +266,11 @@ footer{
 		font-size:12pt;
 		color:#444;
 	}
-	header{
+	header {
 		margin:0px;
 		padding:0px
 	}
-	header ul, footer, #icons{
+	header ul, footer, #icons {
 		display:none;
 	}
 }
