@@ -61,6 +61,7 @@ blockquote {
 }
 
 code, pre {
+	line-height:1;
 	family:12px 'Anonymous Pro', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
 	color:#333;
 }
