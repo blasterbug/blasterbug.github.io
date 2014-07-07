@@ -129,7 +129,7 @@ header ul a strong {
 
 section {
 	margin:0px auto 0px;
-	max-width:500px;
+	width:500px;
 	float:right;
 	padding-bottom:10px 10px 10px;
 }
@@ -160,7 +160,7 @@ footer {
 	width:28px;
 }
 
-#icons p {
+footer p {
 	float:right;
 }
 
@@ -182,8 +182,8 @@ footer {
 	}
 
 	header, section, footer, footer #icons {
-		max-width:95%;
-		padding:0px 10px 0px;
+		width:100%;
+		padding:5px;
 		margin:0px;
 		position:static;
 		float:left;
@@ -213,7 +213,7 @@ footer {
 		position:static;
 	}
 
-	footer #icons p {
+	footer p {
 		float:right;
 	}
 }
@@ -222,7 +222,7 @@ footer {
 	body {
 		margin:0px;
 		width:100%;
-		padding:15px;
+		padding:10px;
 	}
 	header, section, footer, #icons {
 		width:100%;
@@ -247,7 +247,7 @@ footer {
 		width:32px;
 	}
 
-	footer #icons p {
+	footer p {
 		float:right;
 	}
 }
