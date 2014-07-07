@@ -1,8 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:500&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin);
 @import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro&subset=latin,latin-ext);
-/*@import url(sanitrixie/sanitrixie.css);*/
-@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro&subset=latin,latin-ext);
 
 body {
 	max-width:800px;
@@ -61,8 +59,8 @@ blockquote {
 }
 
 code, pre {
-	line-height:1;
-	family:12px 'Anonymous Pro', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+	line-height:1.5;
+	family:12px 'Source Code Pro', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
 	color:#333;
 }
 
@@ -153,6 +151,10 @@ footer {
 	position:fixed;
 	bottom:0px;
 	margin:10px;
+}
+
+#icons p {
+	float:right;
 }
 
 .icon {
