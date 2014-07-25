@@ -42,13 +42,6 @@ a:hover{
 	text-decoration: underline;
 }
 
-p{
-	text-indent: 15px;
-	text-align:  justify;
-	-moz-text-align-last: left; /* Code for Firefox */
-	text-align-last:  left;
-}
-
 blockquote {
 	border-left: 1px solid #e5e5e5;
 	margin: 5px;
@@ -145,6 +138,13 @@ hr {
 footer {
 	color: #777;
 	display: none;
+}
+
+.article p {
+	text-indent: 15px;
+	text-align:  justify;
+	-moz-text-align-last: left; /* Code for Firefox */
+	text-align-last:  left;
 }
 
 .icons {
