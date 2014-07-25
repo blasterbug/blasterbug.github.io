@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px 0px 10px;
 	color: #FFA500;
+    padding: 2px;
 }
 
 p, ul, ol, table, pre, dl, hr {
