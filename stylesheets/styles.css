@@ -175,7 +175,7 @@ footer p {
 	}
 
 	header, section, footer, footer #icons {
-		width:100%;
+		width:98%;
 		padding:5px;
 		margin:0px;
 		position:static;
@@ -218,7 +218,7 @@ footer p {
 		padding:10px;
 	}
 	header, section, footer, #icons {
-		width:100%;
+		width:98%;
 		position:static;
 	}
 
