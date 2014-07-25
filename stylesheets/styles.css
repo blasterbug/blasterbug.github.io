@@ -8,12 +8,12 @@ body {
 	padding:0px;
 	font: normal 16px 'Source Serif Pro', serif;
 	color:#505050;
+    background: #ddd;
 	font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Source Sans Pro', sans-serif;
-	color:#666;
 	margin:15px 0px 10px;
 	color:#FFA500;
 }
@@ -58,7 +58,7 @@ blockquote {
 code, pre {
 	line-height:1.5;
 	family:12px 'Source Code Pro', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-	color:#333;
+	color:#666;
 }
 
 pre {
