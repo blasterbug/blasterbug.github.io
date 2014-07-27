@@ -19,7 +19,7 @@
 .octicon {
   font: normal normal 16px octicons;
   line-height: 1;
-  color:#333;
+  color:#666;
   display: inline-block;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
@@ -34,7 +34,7 @@
 .medium-octicon {
   font: normal normal 24px octicons;
   line-height: 1;
-  color:#333;
+  color:#666;
   display: inline-block;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
@@ -49,7 +49,7 @@
 .mega-octicon {
   font: normal normal 32px octicons;
   line-height: 1;
-  color:#333;
+  color:#666;
   display: inline-block;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
