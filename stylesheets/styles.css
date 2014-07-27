@@ -12,10 +12,9 @@ body {
 	font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, dt {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px 0px 10px;
-	color: #FFA500;
     padding: 2px;
 }
 
@@ -26,6 +25,7 @@ p, ul, ol, table, pre, dl, hr {
 
 h1, h2, h3 {
 	line-height: 1.1;
+    color: #FFA500;
 }
 
 h1 {
@@ -43,7 +43,7 @@ a:hover{
 }
 
 
-p {
+p, dd {
 	text-indent: 15px;
 	text-align:  justify;
 	-moz-text-align-last: left; /* Code for Firefox */
@@ -95,9 +95,17 @@ img {
 	margin: 2px;
 }
 
+img.avatar {
+    margin:5px 15px 5px;
+    border-radius: 8px;
+    width: auto;
+    height: 200px;
+}
+
+
 strong {
-	color: #444;
-	font-weight: 700;
+	color: #333;
+	font-weight: 600;
 }
 
 header {
