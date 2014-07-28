@@ -95,18 +95,12 @@ img {
     margin: 2px;
 }
 
-#avatarwrapper {
-    width: 300px;
-    float: left;
-}
-
 img.avatar {
     margin:5px 20px 5px;
     border-radius: 8px;
     width: 180px;
     height: 180px;
 }
-
 
 strong {
     color: #333;
@@ -115,7 +109,6 @@ strong {
 
 header {
     width: 300px;
-    min-height: 300px;
     position: fixed;
 }
 
@@ -221,7 +214,4 @@ footer p {
         display: none;
     }
 
-    #menu {
-        float: left;
-    }
 }
