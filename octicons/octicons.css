@@ -18,8 +18,8 @@
 */
 .octicon {
   font: normal normal 16px octicons;
-  line-height: 1;
   color:#333;
+  line-height: 1;
   display: inline-block;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
@@ -28,13 +28,25 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: inherit;
 }
 
+.octicon {
+  font: normal normal 16px octicons;
+  color:#333;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 .medium-octicon {
   font: normal normal 24px octicons;
-  line-height: 1;
   color:#333;
+  line-height: 1;
   display: inline-block;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
@@ -43,22 +55,6 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: inherit;
-}
-
-.mega-octicon {
-  font: normal normal 32px octicons;
-  line-height: 1;
-  color:#333;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: inherit;
 }
 
 .octicon-alert:before { content: '\f02d'} /*  */
