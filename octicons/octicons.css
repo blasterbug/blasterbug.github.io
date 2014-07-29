@@ -30,8 +30,8 @@
   user-select: none;
 }
 
-.octicon {
-  font: normal normal 16px octicons;
+.mega-octicon {
+  font: normal normal 32px octicons;
   color:#333;
   line-height: 1;
   display: inline-block;
