@@ -1,0 +1,33 @@
+@media print {
+    img.avatar, header ul {
+        float: left;
+    }
+
+    header ul {
+        margin: 50px 20px 30px;
+        width: 200px;
+    }
+
+}
+
+@media print, screen and (max-width:  800px) {
+    img.avatar, header ul {
+        float: left;
+    }
+
+    img.avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    header ul {
+        margin: 5px 10px 0px;
+        width: 120px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+}
+
