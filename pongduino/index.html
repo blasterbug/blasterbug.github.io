@@ -33,7 +33,14 @@
     <section>
 
         <p>
-            Dans le cadre du projet <a>ANR ImpRo</a>, un démonstrateur a dû être développé. Ce démonstrateur est composé de deux robots mobiles qui s'échanger une balle. La plateforme est comparable au jeu Pong ou à un air-hocket.
+            Dans le cadre du projet <a>ANR ImpRo</a>, un démonstrateur a dû être développé.
+         </p>
+
+        <p>
+            Le démonstrateur est composé de deux mobiles qui s'échangent une balle. Les mobiles sont des robots Lego équipés d'une brique <a href="https://fr.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="La brique Nxt sur wikipedia" >Lego Mindstorms NXT</a> tournant sous <a title="Trampoline - Open Source RTOS Project" target="_blank" href="http://trampoline.rts-software.org/">Trampoline</a>. Trampoline est le système d'exploitation temps réel développé par l'équipe STR de l'IRCCyN. Il permet de superviser la commande du robot.
+        </p>
+        <p>
+            Le robot peut connaître la position de la balle sur le plateau grâce à une caméra CMUcam4 reliée à un carte Arduino Uno. Cette dernière est également reliée à une rampe de capteurs située sous le robot. Ces informations sont transmissent au NXT via une connexion I2C.
         </p>
 
     </section>
