@@ -8,7 +8,7 @@
         width: 200px;
     }
 
-    a, a:visited, a:hover {
+   * a, * a:visited, * a:hover {
         color: #505050;
     }
 
