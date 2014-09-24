@@ -8,6 +8,10 @@
         width: 200px;
     }
 
+    a, a:visited, a:hover {
+        color: #505050;
+    }
+
 }
 
 @media print, screen and (max-width:  800px) {
