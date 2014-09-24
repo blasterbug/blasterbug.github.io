@@ -126,7 +126,7 @@ header li {
 
 header ul a {
     color: #39c;
-    display: block;
+    display: inline;
 }
 
 header ul a strong {
