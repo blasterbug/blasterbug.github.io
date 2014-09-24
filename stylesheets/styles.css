@@ -125,7 +125,7 @@ header li {
 }
 
 header ul a {
-    color: #505050;;
+    color: #39c;
     display: inline;
 }
 
@@ -134,10 +134,11 @@ header ul a strong {
 }
 
 #menu {
-    margin: 50px;
+    margin: 30px;
 }
+
 #menu li {
-    list-style: circle;
+    list-style: inside;
 }
 
 section {
@@ -214,5 +215,4 @@ footer p {
     #menu, footer {
         display: none;
     }
-
 }

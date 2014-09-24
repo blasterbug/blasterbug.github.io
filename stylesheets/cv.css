@@ -5,10 +5,10 @@
 
     header ul {
         margin: 30px 5px 30px;
-        width: 200px;
+       /* width: 200px;*/
     }
 
-   * a, * a:visited, * a:hover {
+   a, a:visited, a:hover, #ml a {
         color: #505050;
     }
 
