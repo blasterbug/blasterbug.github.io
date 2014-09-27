@@ -134,11 +134,11 @@ header ul a strong {
 }
 
 #menu {
-    margin: 30px;
+    margin: 20px;
 }
 
 #menu li {
-    list-style: inside;
+    list-style: circle;
 }
 
 section {
