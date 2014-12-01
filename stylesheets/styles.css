@@ -197,7 +197,7 @@ footer p {
         padding: 5px;
     }
 
-    #menu {
+    #menu, img.avatar {
         display: none;
     }
 
