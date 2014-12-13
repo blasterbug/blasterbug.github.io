@@ -3,5 +3,5 @@ function replace() {
 }
 
 function showMail() {
-    document.getElementById("ml").innerHTML = "<a href=\"mailto:benjamin.sientzoff@yahoo.fr\" >benjamin.sientzoff@yahoo.fr</a>";
+    document.getElementById("ml").innerHTML = "<a href=\"mailto:benjamin.sientzoff@yahoo.fr\" >me contacter</a>";
 }

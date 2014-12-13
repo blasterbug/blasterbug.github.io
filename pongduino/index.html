@@ -28,6 +28,12 @@
 
         <h1>Pongduino</h1>
 
+        <ul>
+            <il>
+                <a href="/" title="" >Page d'accueil</a>
+            </il>
+        </ul>
+
     </header>
 
     <section>
@@ -35,14 +41,14 @@
         <p><i>La page est actuellement en construction.</i></p>
         <span style="margin: auto 10px auto"></span>
         <p>
-            Pendant mes stages au sein de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, j'ai participé au dévellopement du démontrateur de projet <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="Description du projet ANR ImpRo" >ANR ImpRo</a> que j'ai rebatisé Pongduino.
+            Pendant mes stages au sein de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, j'ai participé au développement du démonstrateur du projet <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="Description du projet ANR ImpRo" >ANR ImpRo</a> que j'ai rebatisé Pongduino.
          </p>
 
         <p>
             Le démonstrateur est composé de deux mobiles qui s'échangent une balle. Les mobiles sont des robots Lego équipés d'une brique <a href="https://fr.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="La brique Nxt sur wikipedia" >Lego Mindstorms NXT</a> tournant sous <a title="Trampoline - Open Source RTOS Project" target="_blank" href="http://trampoline.rts-software.org/">Trampoline</a>. Trampoline est le système d'exploitation temps réel développé par l'équipe STR de l'IRCCyN. Il permet de superviser la commande du robot.
         </p>
         <p>
-            Le robot peut connaître la position de la balle sur le plateau grâce à une caméra CMUcam4 reliée à un carte Arduino Uno. Cette dernière est également reliée à une rampe de capteurs située sous le robot. Ces informations sont transmissent au NXT via une connexion I2C.
+            Une caméra CMUcam4 reliée à une carte Arduino Uno, permet de détecter la position de la balle sur le terrain. La carte Arduino est également reliée à une rampe de capteurs située sous le robot. Ces informations sont transmissent au NXT via une connexion I2C ce qui lui permet de connaître la position de la balle.
         </p>
 
     </section>
