@@ -1,7 +1,11 @@
 ---
 layout: post
 title: "Pongduino"
+<<<<<<< HEAD:_posts/2014-06-30-pongduino.md
 date: 14/06/30 16:11:27
+=======
+date: 15/05/20 16:11:27
+>>>>>>> jekyll:_posts/2015-05-20-pongduino.md
 published: false
 categories:
  - irccyn
