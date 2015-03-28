@@ -8,6 +8,12 @@
     float: left;
     margin: 0;
     padding: 0;
+    
+    @include media-query($on-palm) {
+        float: left;
+        margin: 5px;
+        width: auto;
+    }
 }
 
 #cv-header ul {
@@ -45,6 +51,14 @@ section {
     float: left;
     max-width: 68%;
     padding: 1%;
+    
+    @include media-query($on-palm) {
+        margin: auto;
+        max-width: 98%;
+        float: left;
+        margin: 5px;
+        padding: 0;
+    }
 }
 
 dt {
