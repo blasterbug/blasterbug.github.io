@@ -34,7 +34,7 @@ permalink: /curriculum/
         <span class="mega-octicon octicon-quote" ></span> Je suis actuellement étudiant en Informatique à l'Université de Nantes. Passionné par l'Informatique mais pas que, je suis un amateur de musiques extrêmes et de cinéma (Science-Fiction principalement). Je fait également un peu de bénévolat.
     </p>
     <p>
-        Dernièrement, j'ai effectué mon second stage au sein de l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. Le premier dans le cadre de mon Diplôme Universitaire de Technologie et le second à la fin de mon année de Licence 2 à la faculté. Au cours de ces stages, j'ai travaillé sur le démonstrateur du projet <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="Description du projet ANR ImpRo" >ANR ImpRo</a> que j'ai baptisé <a href="pongduino/" >Pongduino</a>.
+        Dernièrement, j'ai effectué mon second stage au sein de l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. Le premier dans le cadre de mon Diplôme Universitaire de Technologie et le second à la fin de mon année de Licence 2 à la faculté. Au cours de ces stages, j'ai travaillé sur le démonstrateur du projet <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="Description du projet ANR ImpRo" >ANR ImpRo</a> que j'ai baptisé <a href="/tags/#pongduino" >Pongduino</a>.
     </p>
 
     <h2 id="skills">Compétances</h2>
