@@ -1,55 +1,47 @@
-<!doctype html>
-<html>
-<head>
-    <title>blasterbug.github.io</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Site personnel de Benjamin Sientzoff">
-    <meta name="author" content="blasterbug">
-    <meta name="keywords" content="github, computer, computer science, electronic, code, coding, program, programming">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <link rel="stylesheet" href="/octicons/octicons.css">
-    <link type="image/png" rel="shortcut icon" href="/icons/gist.png">
-    <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <header>
-        <h1>blasterbug.github.io</h1>
+---
+layout: default
+meta-keywords: "github, computer, computer science, electronic, code, coding, program, programming"
+---
 
-        <ul>
-            <li><a href="curriculum/" title="CV de Benjamin">Curriculum Vitae</a></li>
-            <li><a href="pongduino/" title="Page en construction">Pongduino</a></li>
-            <li><a href="http://www.github.com/blasterbug/octochat" title="Talk over LAN without a main server">Octochat</a></li>
-        </ul>
-    </header>
+<div class="home">
 
-    <section>
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%d %B %Y" }}
+        {% for category in post.categories %} <a href="/tags/#{{ category }}">{{ category }}</a>{% endfor %}
+        </span>
+        <p>{{ post.excerpt | strip_html | strip_newlines }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="octicon octicon-chevron-left"></span></a>
+  {% endif %}
 
-        <h2><span class="medium-octicon octicon-paintcan"></span> UNDER CONSTRUCTION</h2>
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      {{ page }}
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
 
-        <p>
-            Le site est actuellement en construction. quelques pages sont déjà disponnibles, comme mon <a href="curriculum.html" title="">CV</a>.
-        </p>
-		
-        <p>
-            Plus de détails/contenu <strong>plus tard</strong>. Je travaille actuellement sur une version plus "blog" de mon site, <i>wait and see</i>.
-        </p>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="octicon octicon-chevron-right"></span></a>
+  {% endif %}
+</div>
+{% endif %}
+  </div>
 
-        <h2><span class="medium-octicon octicon-briefcase"></span> Internship complete</h2>
-        <p>
-            Dernièrement j'étais en stage à l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> dans l'équipe Systèmes Temps Réel. Ce stage s'est conclue par l'écriture d'une librairie, <a href="http://www.github.com/blasterbug/Camduino" title="Camduino sur GitHub" >Camduino</a>, permettant de faire communiquer l'OS temps réel <i>maison</i> de l'équipe, Trampoline et une carte Arduino Uno. L'OS tournant sur une brique NXT Lego Mindstorm.
-        </p>
-
-    </section>
-
-    <footer>
-        <p>
-            <small>Hébergé par <a href="http://github.com/" target="_blank">GitHub</a>.</small>
-        </p>
-    </footer>
-    <script src="javascripts/scale.fix.js"></script>
-</body>
-</html>
+</div>

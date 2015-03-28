@@ -15,7 +15,7 @@
 
 */
 .octicon, .mega-octicon, .medium-octicon {
-  color:#333;
+  /* color: #3E515A; */
   font: normal normal normal 16px/1 octicons;
   display: inline-block;
   text-decoration: none;
@@ -27,8 +27,10 @@
   -ms-user-select: none;
   user-select: none;
 }
+
 .mega-octicon { font-size: 32px; }
 .medium-octicon { font-size: 24px; }
+. { font-size: 16px; }
 
 .octicon-alert:before { content: '\f02d'} /*  */
 .octicon-alignment-align:before { content: '\f08a'} /*  */

@@ -1,0 +1,25 @@
+---
+title: tags
+layout: page
+permalink: /tags/
+published: true
+---
+
+  {% for category in site.categories %}
+    <div id="{{ category | first }}" class="tags-name">
+    <h2>{{ category | first }}</h2>
+    <ul class="posts-list">
+    {% for posts in category %}
+      {% for post in posts %}
+        {% if post.title %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a> - 
+          <span class="post-meta">{{ post.date | date: "%d %B %Y" }}
+          </span>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% endfor %}
+    </div>
+  {% endfor %}
