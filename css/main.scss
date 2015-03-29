@@ -10,7 +10,7 @@
 // Our variables
 $serif-font-family: 'Source Serif Pro', serif;
 $sans-font-family: 'Source Sans Pro', sans;
-$mono-font-family: 'Source Code Pro', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+$mono-font-family: 'Source Code Pro', Consolas, Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Monospace;
 
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -26,7 +26,6 @@ $text-color:       #3E515A;
 $brand-color:      #00BFA5;
 
 
-// Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
