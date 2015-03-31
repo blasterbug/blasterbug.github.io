@@ -4,10 +4,17 @@
 .tags-name {
   width: 245px;
   float: left;
-  margin: 5 px;
+  padding: 5px;
+  margin:0px;
   display: block;
 }
 
 .tags-name h2 {
   text-transform: uppercase;
+}
+
+.tags-name li {
+  margin: 0;
+  padding: 1px;
+  list-style: none;
 }
