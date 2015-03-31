@@ -11,7 +11,7 @@ meta-keywords: "github, computer, computer science, electronic, code, coding, pr
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%d %B %Y" }}
+        <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}
         {% for category in post.categories %} <a href="/tags/#{{ category }}">{{ category }}</a>{% endfor %}
         </span>
         <p>{{ post.excerpt | strip_html | strip_newlines }}</p>
