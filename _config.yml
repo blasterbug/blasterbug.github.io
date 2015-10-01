@@ -1,8 +1,7 @@
 # Site settings
 title: blasterbug.github.io
 #email: benjamin.sientzoff@yahoo.fr
-description: >
- Site personnel de Benjamin Sientzoff
+description: Benjamin's corner on the web.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blasterbug.github.io" # the base hostname & protocol for your site
 
@@ -15,9 +14,19 @@ encoding: "utf-8"
 gem: ""
 
 # Conversion
-markdown:    kramdown
+markdown:    redcarpet
+redcarpet:
+  extensions:
+      - footnotes
+      - hard_wrap
+      - no_intra_emphasis
+      - autolink
+      - strikethrough
 lsi:         true
 excerpt_separator: "\n\n"
+
+# GitHub Flavored Makdown
+highlighter: pygments
 
 # Configuration settings
 timezone: Europe/Paris
