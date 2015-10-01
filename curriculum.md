@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "À propos"
+title: "About"
 permalink: /curriculum/
 ---
 <div id="cv-header">
@@ -9,16 +9,16 @@ permalink: /curriculum/
 
     <ul>
         <li>
-            <span class="octicon octicon-mark-github"></span> <a href="http://www.github.com/blasterbug" title="Mon profil sur GitHub"> Benjamin Sientzoff</a>
+            <span class="octicon octicon-mark-github"></span> <a href="http://www.github.com/blasterbug" title="My profil on GitHub"> Benjamin Sientzoff</a>
         </li>
-        <li><span class="octicon octicon-location"></span> Nantes, France</li>
+        <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
     </ul>
 
     <div id="menu">
         <ul>
-            <li><a href="#aboutme">À Propos</a></li>
-            <li><a href="#skills">Compétances</a></li>
-			<li><a href="#cur-2015" title="La Suède !" >2015</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+			<li><a href="#cur-2015" title="Sweden!" >2015</a></li>
             <li><a href="#cur-2014" title="La fin du monde ?" >2014</a></li>
             <li><a href="#cur-2013" title="J'ai eu mon DUT!" >2013</a></li>
             <li><a href="#cur-2011" title="Bienvenue sur GH" >2011</a></li>
@@ -37,24 +37,35 @@ permalink: /curriculum/
         Dernièrement, j'ai effectué mon second stage au sein de l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. Le premier dans le cadre de mon Diplôme Universitaire de Technologie et le second à la fin de mon année de Licence 2 à la faculté. Au cours de ces stages, j'ai travaillé sur le démonstrateur du projet <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="Description du projet ANR ImpRo" >ANR ImpRo</a> que j'ai baptisé <a href="/tags/#pongduino" >Pongduino</a>.
     </p>
 
-    <h2 id="skills">Compétances</h2>
+    <h2 id="skills">Skills</h2>
     <dl>
-        <dt>Programmation</dt>
-        <dd>C, C++, OCaml, Python, Java, Bash, Assembleur (MIPS et Intel x86), ADA95</dd>
+        <dt>Designing</dt>
+        <dd>UML, Merise, Petri nets, Design Paterns</dd>
+        <dt>Programming</dt>
+        <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
         <dd>Arduino, Processing</dd>
-        <dt>Modélisation</dt>
-        <dd>UML, Merise, Réseau de Petri, Design Paterns, JUnit</dd>
+		<dt>Tools</dt>
+		<dd>JUnit, git, Doxygen</dd>
         <dt>Web</dt>
-        <dd>(X)HTML, CSS, Javascript, PHP, SQL, PL/SQL, Jekyll, Node.js</dd>
-        <dt>Bureautique</dt>
-        <dd>LaTeX, suite Office et LibreOffice</dd>
-        <dt>Anglais</dt>
-        <dd>Capable de tenir une conversation, rédiger et lire divers textes (notices, notes de service, rapports, etc.).</dd>
+        <dd>(X)HTML, CSS, Javascript, PHP, SQL, PL/SQL, Jekyll, Markdown</dd>
+        <dt>Writing</dt>
+        <dd>LaTeX</dd>
+        <dt>French</dt>
+		<dd>Native language</dd>
+		<dt>English</dt>
+        <dd>Almost bilingual, I live aboard</dd>
+		<dt>Swedish</dt>
+        <dd>loading...</dd>
     </dl>
 
-    <h2>Parcours</h2>
+    <h2>Background</h2>
     <h3 id="cur-2015" >2015</h3>
     <dl>
+        <dt>September</dt>
+		<dd><span class="octicon octicon-book"></span> Master 1 Computer Science at Umeå Universitet as an exchange student.</dd>
+		<dt>August</dt>
+		<dd><span class="octicon octicon-location"></span> Moved to Umeå, Sweden.</dd>
+        <dd><span class="octicon octicon-mortar-board"></span> Obtention de la licence Informatique à l'Université de Nantes.</dd>
         <dt>Avril - Juillet</dt>
         <dd>Troisième stage au sein de l'équipe STR de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> encadré par Richard Urunuela, toujours sur le projet ANR ImpRo.</dd>
     </dl>
