@@ -145,8 +145,8 @@ blockquote {
 pre,
 code {
     font-family: $mono-font-family;
-    font-size: 15px;
-    border: 0px solid $brand-color;
+    font-size: 12px;
+    border: 1px solid $text-color;
     border-radius: 3px;
     background-color: $code-background-color;
 }
@@ -156,7 +156,7 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 8px;
     overflow-x: scroll;
 
     > code {

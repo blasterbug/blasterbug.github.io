@@ -3,27 +3,27 @@
 ---
 @charset "utf-8";
 
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:500&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext,latin);
-@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans|PT+Serif);
 
 // Our variables
-$serif-font-family: 'Source Serif Pro', serif;
-$sans-font-family: 'Source Sans Pro', sans;
-$mono-font-family: 'Source Code Pro', Consolas, Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Monospace;
+$serif-font-family: 'PT Serif', serif;
+$sans-font-family: 'PT Sans', sans;
+$mono-font-family: 'PT Mono', Consolas, Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Monospace;
 
-$base-font-size:   16px;
+$base-font-size:   15px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$head-background-color: #455A64;
-$background-color: #EAEAFF;
+$head-background-color: #636E73;
+$background-color: #EFEFEF;
 $code-background-color: #FFF;
 
-$text-color:       #3E515A;
-$brand-color:      #00BFA5;
+$shadow-color: #888888;
+
+$text-color:       #555555;
+$brand-color:      #E83F33;
 
 
 $content-width:    800px;
