@@ -59,6 +59,7 @@ p, blockquote, pre {
 img {
     margin: auto;
     max-width: 100%;
+    box-sizing: border-box;
     vertical-align: middle;
 }
 
@@ -149,6 +150,7 @@ code {
     border: 1px solid $text-color;
     border-radius: 3px;
     background-color: $code-background-color;
+    box-shadow: 0px 1px 3px $shadow-color;
 }
 
 code {

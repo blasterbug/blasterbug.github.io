@@ -44,7 +44,7 @@
 
 #menu li {
     list-style: circle;
-    margin-left: 22px;
+    margin-left: 30px;
 }
 
 section {
@@ -68,4 +68,5 @@ dt {
 
 img.avatar {
     border-radius: 3px;
+    box-shadow: 0px 1px 3px $shadow-color;
 }
