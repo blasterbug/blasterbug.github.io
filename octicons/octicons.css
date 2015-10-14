@@ -15,7 +15,7 @@
 
 */
 .octicon, .mega-octicon, .medium-octicon {
-  /* color: #3E515A; */
+  color: #333;
   font: normal normal normal 16px/1 octicons;
   display: inline-block;
   text-decoration: none;

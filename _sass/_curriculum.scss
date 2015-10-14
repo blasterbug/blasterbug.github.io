@@ -3,10 +3,10 @@
  */
 #cv-header {
     min-width: 200px;
-    max-width: 30%;
+    max-width: 28%;
     position: float;
     float: left;
-    margin: 0;
+    margin: 5px;
     padding: 0;
     
     @include media-query($on-palm) {
@@ -49,21 +49,27 @@
 
 section {
     float: left;
-    max-width: 68%;
+    max-width: 66%;
     padding: 1%;
-    
+    margin: 0px 5px 5px 0px;
     @include media-query($on-palm) {
         margin: auto;
         max-width: 98%;
-        float: left;
         margin: 5px;
         padding: 0;
     }
 }
 
+dl {
+    padding: 0px;
+    float: center;
+}
 dt {
-    font-weight: 700;
+    font-weight: 600;
     color: $text-color;
+    font-family: $sans-font-family;
+    font-size: 1.1em;
+    margin-top: 10px;
 }
 
 img.avatar {
