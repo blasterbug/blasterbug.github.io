@@ -9,7 +9,10 @@ permalink: /curriculum/
 
     <ul>
         <li>
-            <span class="octicon octicon-mark-github"></span> <a href="http://www.github.com/blasterbug" title="My profil on GitHub"> Benjamin Sientzoff</a>
+            <span class="octicon octicon-mark-github"></span>
+            <a href="http://www.github.com/blasterbug" title="My profil on GitHub">
+                Benjamin Sientzoff
+            </a>
         </li>
         <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
     </ul>
@@ -18,7 +21,7 @@ permalink: /curriculum/
         <ul>
             <li><a href="#aboutme">About</a></li>
             <li><a href="#skills">Skills</a></li>
-			<li><a href="#cur-2015" title="Sweden!" >2015</a></li>
+            <li><a href="#cur-2015" title="Sweden!" >2015</a></li>
             <li><a href="#cur-2014" title="La fin du monde ?" >2014</a></li>
             <li><a href="#cur-2013" title="J'ai eu mon DUT!" >2013</a></li>
             <li><a href="#cur-2011" title="Bienvenue sur GH" >2011</a></li>
@@ -31,8 +34,9 @@ permalink: /curriculum/
 <section>
 
     <p id="aboutme">
-        <span class="mega-octicon octicon-quote" ></span> Je suis actuellement étudiant en Informatique à l'Université d'Umeå, une petite ville au nord de la Suède. Passionné par l'Informatique mais pas que, je suis un amateur de musiques extrêmes et de cinéma (Science-Fiction principalement). Je fait également un peu de bénévolat.
+        <span class="mega-octicon octicon-quote" ></span> Je suis actuellement étudiant en Informatique à l'Université d'Umeå, une petite ville au nord de la Suède. Passionné par l'Informatique mais pas que, je suis un amateur de musiques extrêmes et de cinéma (Science-Fiction principalement). J'aime également faire du bénévolat.
     </p>
+    
     <p>
         Dernièrement, j'ai effectué mon second stage au sein de l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. Le premier dans le cadre de mon Diplôme Universitaire de Technologie et le second à la fin de mon année de Licence 2 à la faculté. Au cours de ces stages, j'ai travaillé sur le démonstrateur du projet <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="Description du projet ANR ImpRo" >ANR ImpRo</a> que j'ai baptisé <a href="/tags/#pongduino" >Pongduino</a>.
     </p>
@@ -65,9 +69,9 @@ permalink: /curriculum/
 		<dd><span class="octicon octicon-book"></span> Master 1 Computer Science at Umeå Universitet as an exchange student.</dd>
 		<dt>August</dt>
 		<dd><span class="octicon octicon-location"></span> Moved to Umeå, Sweden.</dd>
-        <dd><span class="octicon octicon-mortar-board"></span> Obtention de la licence Informatique à l'Université de Nantes.</dd>
+        <dd><span class="octicon octicon-mortar-board"></span> Get my bachelor degree from the University of Nantes in Computer Science.</dd>
         <dt>April - Jully</dt>
-        <dd>Troisième stage au sein de l'équipe STR de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> encadré par Richard Urunuela, toujours sur le projet ANR ImpRo.</dd>
+        <dd>Third internship within the Real Time Systems team of theTroisième stage au sein de l'équipe STR de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> encadré par Richard Urunuela, toujours sur le projet ANR ImpRo.</dd>
     </dl>
 
     <h3 id="cur-2014" >2014</h3>
