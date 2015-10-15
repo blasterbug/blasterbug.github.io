@@ -100,14 +100,14 @@ permalink: /curriculum/
     <h3 id="cur-2011" >2011</h3>
     <dl>
         <dt>June</dt>
-        <dd><span class="octicon octicon-octoface"></span> Benjamin fait son arrivée sur GitHub.</dd>
+        <dd><span class="octicon octicon-octoface"></span> Benjamin got registered on GitHub.</dd>
     </dl>
 
-    <div style="margin:25px 45% 25px;"><span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span></div>
+    <div style="margin:25px 40% 25px;"><span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span></div>
 
     <h3 id="cur-1992" >1992</h3>
     <dl>
         <dt>June</dt>
-        <dd><span class="octicon octicon-package"></span> Naissance  après 9 jours de rab <i>in utero</i>.</dd>
+        <dd><span class="octicon octicon-package"></span> Born after nine extra days <i>in utero</i>.</dd>
     </dl>
 </section>

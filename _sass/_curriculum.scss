@@ -1,3 +1,10 @@
+
+h1, h2 {
+    @include media-query($on-palm) {
+        margin: 30px;
+    }
+}
+
 /**
  * curriculum menu
  */
@@ -11,8 +18,8 @@
     
     @include media-query($on-palm) {
         float: left;
-        margin: 5px;
-        width: auto;
+        margin: auto;
+        max-width: 98%;
     }
 }
 
@@ -46,13 +53,23 @@
     list-style: circle;
     margin-left: 30px;
 }
+/**
+ * curriculum content
+ */
+
+section .octicon {
+    width: 18px;
+    text-align: center;
+}
 
 section {
     float: left;
-    max-width: 66%;
+    max-width: 67%;
     padding: 1%;
     margin: 0px 5px 5px 0px;
+    
     @include media-query($on-palm) {
+        float: left;
         margin: auto;
         max-width: 98%;
         margin: 5px;
@@ -62,8 +79,8 @@ section {
 
 dl {
     padding: 0px;
-    float: center;
 }
+
 dt {
     font-weight: 600;
     color: $text-color;
