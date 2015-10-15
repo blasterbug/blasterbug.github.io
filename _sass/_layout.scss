@@ -25,6 +25,10 @@
     &:visited {
         color: $background-color;
     }
+    
+    @include media-query($on-palm) {
+        font-size: 26px;;
+    }
 }
 
 .site-nav {
@@ -156,10 +160,11 @@
 }
 
 @include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+    .footer-col-1,
+    .footer-col-2 {
+        float: left;
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
     }
 }
 
