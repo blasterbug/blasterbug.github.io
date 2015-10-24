@@ -28,9 +28,6 @@ p, dd, dt {
     text-align-last:  left;
 }
 
-p, dt {
-    text-indent: 15px;
-}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -103,13 +100,24 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     color: $title-color;
-    font-weight: 400;
+    font-weight: 500;
+}
+
+h1, {
+    font-size: 2em;
+}
+
+h2, {
+    font-size: 1.8em;
+}
+
+h3, {
+    font-size: 1.6em;
 }
 
 h4, h5, h6 {
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
-
 
 /**
  * Links
@@ -150,11 +158,7 @@ blockquote {
 pre,
 code {
     font-family: $mono-font-family;
-    font-size: 12px;
-    border: 1px solid $text-color;
-    border-radius: 3px;
     background-color: $code-background-color;
-    box-shadow: 0px 1px 3px $shadow-color;
 }
 
 code {
@@ -164,6 +168,7 @@ code {
 pre {
     padding: 5px;
     overflow-x: scroll;
+    width: inherits;
 
     > code {
         border: 0;
