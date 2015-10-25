@@ -1,19 +1,26 @@
 /**
  * Tags list
  */
-.tags-name {
-  width: 235px;
-  float: left;
-  padding: 5px;
-  margin:0px;
-  display: block;
+.tag-block {
+    width: 230px;
+    float: left;
+    padding: 5px;
+    margin:0px;
+    display: block;
 }
 
-.tags-name h2 {
-  text-transform: uppercase;
+.tag-name {
+    text-transform: uppercase;
+    font-weight : 400;
+    color: $title-color;
 }
 
-.tags-name li {
-  margin: 2px 0px;
-  list-style: none;
+.tag-list {
+      margin: 2px 0px;
+      list-style: none;
+}
+
+.tag-element {
+    margin: 2px 0px;
+    list-style: none;
 }
