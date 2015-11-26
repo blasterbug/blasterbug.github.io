@@ -139,7 +139,7 @@ a {
  */
 blockquote {
     color: $text-color;
-    border-left: 4px solid $brand-color;
+    border-left: 4px solid $head-background-color;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -159,6 +159,7 @@ pre,
 code {
     font-family: $mono-font-family;
     background-color: $code-background-color;
+    white-space:pre-wrap;
 }
 
 code {
@@ -166,8 +167,8 @@ code {
 }
 
 pre {
+    border-left: 4px solid $brand-color;
     padding: 5px;
-    width: inherits;
 
     > code {
         border: 0;
