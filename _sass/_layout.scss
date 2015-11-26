@@ -38,13 +38,18 @@
         display: none;
     }
 
-    .page-link {
+    .page-link, &:visited {
         color: $background-color;
         line-height: $base-line-height;
+        text-decoration: none;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
+        }
+        
+        &:hover, {
+            color: $brand-color;
         }
     }
 
