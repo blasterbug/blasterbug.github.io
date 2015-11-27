@@ -17,9 +17,11 @@
 
 .octicon, .mega-octicon, .medium-octicon {
   font: normal normal normal 16px/1 octicons;
+  width: 16px;
   display: inline-block;
   text-decoration: none;
   text-rendering: auto;
+  text-align : center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-user-select: none;
@@ -28,8 +30,15 @@
   user-select: none;
 }
 
-.mega-octicon { font-size: 32px; }
-.medium-octicon { font-size: 24px; }
+.mega-octicon {
+  font-size: 32px;
+  width: 32px;
+}
+
+.medium-octicon {
+  font-size: 24px;
+  width: 24px;
+}
 
 .octicon-alert:before { content: '\f02d'} /*  */
 .octicon-arrow-down:before { content: '\f03f'} /*  */
