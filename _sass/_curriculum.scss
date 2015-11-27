@@ -33,6 +33,12 @@ h1, h2 {
     width: 280px;
     line-height: 1;
     margin: 8px;
+    
+    @include media-query($on-palm) {
+        max-width: 80%;
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
 #cv-header ul a {
@@ -44,15 +50,7 @@ h1, h2 {
     display: block;
 }
 
-#cv-header ul {
-    padding: 30;
-    margin: 15;
-}
 
-#menu li {
-    list-style: square;
-    margin-left: 30px;
-}
 /**
  * curriculum content
  */
