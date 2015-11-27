@@ -18,17 +18,15 @@ permalink: /curriculum/
     <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
   </ul>
 
-  <div id="menu">
-    <ul>
-      <li><a href="#aboutme">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#cur-2015" title="Sweden!" >2015</a></li>
-      <li><a href="#cur-2014" title="La fin du monde ?" >2014</a></li>
-      <li><a href="#cur-2013" title="J'ai eu mon DUT!" >2013</a></li>
-      <li><a href="#cur-2011" title="Bienvenue sur GH" >2011</a></li>
-      <li><a href="#cur-1992" title="La cignone est passée" >1992</a></li>
-    </ul>
-  </div>
+  <ul id="menu">
+    <li><a href="#aboutme">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#cur-2015" title="Sweden!" >2015</a></li>
+    <li><a href="#cur-2014" title="La fin du monde ?" >2014</a></li>
+    <li><a href="#cur-2013" title="J'ai eu mon DUT!" >2013</a></li>
+    <li><a href="#cur-2011" title="Bienvenue sur GH" >2011</a></li>
+     <li><a href="#cur-1992" title="La cignone est passée" >1992</a></li>
+  </ul>
 
 </div>
 
