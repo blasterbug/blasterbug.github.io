@@ -107,7 +107,10 @@ permalink: /curriculum/
   <dl>
     <dt>September</dt>
     <dd>Admission en Licence 2 Informatique à L'université de Nantes.</dd>
-    <dd>Embauché à Leader Price Nantes (rue des Châlatres) en coutrat étudiant.</dd>
+    <dd>
+      <span class="octicon octicon-briefcase"></span> 
+      Embauché à Leader Price Nantes (rue des Châlatres) en coutrat étudiant.
+    </dd>
     <dd>
       <span class="octicon octicon-jersey"></span> 
       Bénévolat pour la douzième édition du festivale <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>.
@@ -140,7 +143,7 @@ permalink: /curriculum/
   <dl>
     <dt>June</dt>
     <dd>
-      <span class="octicon octicon-watch"></span> 
+      <span class="octicon octicon-package"></span> 
       Born after nine extra days <i>in utero</i>.
     </dd>
   </dl>
