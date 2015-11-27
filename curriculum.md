@@ -134,7 +134,7 @@ permalink: /curriculum/
     </dd>
   </dl>
 
-  <div style="margin:25px 40% 25px;"><span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span></div>
+  <div style="margin: auto; width: 30%"><span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span></div>
 
   <h3 id="cur-1992" >1992</h3>
   <dl>
