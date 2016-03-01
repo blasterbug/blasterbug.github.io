@@ -18,7 +18,7 @@
           {% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">
               {% if page.icon %}
-                 <span class="medium-octicon octicon-{{ page.icon }}"></span>
+                 <span class="medium-octicon {{ page.icon }}"></span>
               {% else %}
                 {{ page.title }}
               {% endif %}
