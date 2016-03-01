@@ -50,6 +50,10 @@ published: true
     <dt>Programming</dt>
     <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
+    <dt>Specific skills</dt>
+    <dd>REST-ful and SOAP application</dd>
+    <dd>Distributed Systems development</dd>
+    <dd>Artficial Intelligence</dd>
     <dt>Tools</dt>
     <dd>JUnit, git, Doxygen</dd>
     <dt>Web</dt>
@@ -57,7 +61,7 @@ published: true
     <dt>Writing</dt>
     <dd>LaTeX</dd>
     <dt>French</dt>
-    <dd>Native language</dd>
+    <dd>Native language</dd>    
     <dt>English</dt>
     <dd>Almost bilingual, I live aboard</dd>
     <dt>Swedish</dt>
