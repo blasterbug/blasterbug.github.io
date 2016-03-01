@@ -14,8 +14,8 @@ encoding: "utf-8"
 gems: [jekyll-paginate]
 
 # Conversion
-markdown:    kramdown
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions:
       - footnotes
       - hard_wrap
