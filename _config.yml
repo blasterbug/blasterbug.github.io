@@ -14,7 +14,7 @@ encoding: "utf-8"
 gems: [jekyll-paginate]
 
 # Conversion
-markdown:    redcarpet
+markdown:    kramdown
 redcarpet:
   extensions:
       - footnotes
@@ -26,7 +26,7 @@ lsi:         true
 excerpt_separator: "\n\n"
 
 # GitHub Flavored Makdown
-highlighter: pygments
+highlighter: rouge
 
 # Configuration settings
 timezone: Europe/Paris
@@ -41,4 +41,3 @@ defaults:
   values:
     layout: "post"
     author: "Benjamin Sientzoff"
-
