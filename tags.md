@@ -1,0 +1,29 @@
+---
+title: tags
+layout: page
+icon: "octicon-tag"
+permalink: /tags/
+published: false
+---
+
+  {% for category in site.categories %}
+    <div id="{{ category | first }}" class="tag-block">
+
+      <h2 class="tag-name">{{ category | first }}</h2>
+
+      <ul class="tag-list">
+      {% for posts in category %}
+        {% for post in posts %}
+         {% if post.title %}
+          <li class="tag-element">
+            <a href="{{ post.url }}">{{ post.title }}</a> -
+            <span class="post-meta">
+            {{ post.date | date: "%b %y" }}
+            </span>
+          </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
