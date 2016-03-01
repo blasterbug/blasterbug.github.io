@@ -11,7 +11,7 @@ github_username: blasterbug
 encoding: "utf-8"
 
 # Plugins
-gem: ""
+gems: [jekyll-paginate]
 
 # Conversion
 markdown:    redcarpet
