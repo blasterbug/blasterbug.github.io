@@ -23,10 +23,10 @@ published: true
     <li><a href="#aboutme">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#cur-2015" title="Sweden!" >2015</a></li>
-    <li><a href="#cur-2014" title="La fin du monde ?" >2014</a></li>
-    <li><a href="#cur-2013" title="J'ai eu mon DUT!" >2013</a></li>
-    <li><a href="#cur-2011" title="Bienvenue sur GH" >2011</a></li>
-     <li><a href="#cur-1992" title="La cignone est passée" >1992</a></li>
+    <li><a href="#cur-2014" title="" >2014</a></li>
+    <li><a href="#cur-2013" title="" >2013</a></li>
+    <li><a href="#cur-2011" title="" >2011</a></li>
+     <li><a href="#cur-1992" title="" >1992</a></li>
   </ul>
 
 </div>
@@ -36,11 +36,14 @@ published: true
   <pre><span class="octicon octicon-alert"></span> This page is not completly translated!</pre>
 
   <p id="aboutme">
-    <span class="mega-octicon octicon-quote" ></span> Je suis actuellement étudiant en Informatique à l'Université d'Umeå, une petite ville au nord de la Suède. Passionné par l'Informatique mais pas que, je suis un amateur de musiques extrêmes et de cinéma (Science-Fiction principalement). J'aime également faire du bénévolat.
+  <!--
+    <span class="medium-octicon octicon-quote" ></span>
+  -->
+    Hey! I am studying Computer Science at the Umeå University, Sweden as an exchange student. I would like to work with Real-Time Systems and I like to code in C and Python. During my spare time, I use to cook vegetarian dishes, build funny stuff with my Arduino Uno while I listen to Nine Inch Nails (or few other extreme music bands). I also used to work as a volunteer.
   </p>
 
   <p>
-    Dernièrement, j'ai effectué mon second stage au sein de l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. Le premier dans le cadre de mon Diplôme Universitaire de Technologie et le second à la fin de mon année de Licence 2 à la faculté. Au cours de ces stages, j'ai travaillé sur le démonstrateur du projet <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="Description du projet ANR ImpRo" >ANR ImpRo</a> que j'ai baptisé <a href="/tags/#pongduino" >Pongduino</a>.
+    Last summer, I did a work placement for the third time within the Real-Time Systems team from a French research lab, the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. I worked on the demonstartor of the research project <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="About ANR ImpRo" >ANR ImpRo</a>. I built up almost every prototypes of the demonstrator. The last one is build using metal parts and is driven by an Arduino board. The video further shows the last prototype.
   </p>
 
   <h2 id="skills">Skills</h2>
@@ -51,8 +54,7 @@ published: true
     <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
     <dt>Specific skills</dt>
-    <dd>REST-ful and SOAP application</dd>
-    <dd>Distributed Systems development</dd>
+    <dd>Distributed Systems development (REST-ful and SOAP applications)</dd>
     <dd>Artficial Intelligence</dd>
     <dt>Tools</dt>
     <dd>JUnit, git, Doxygen</dd>
@@ -88,9 +90,11 @@ published: true
     <dt>April - Jully</dt>
     <dd>
       <span class="octicon octicon-beaker"></span>
-      Third internship within the Real Time Systems team of theTroisième stage au sein de l'équipe STR de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> encadré par Richard Urunuela, toujours sur le projet ANR ImpRo.
+      Third internship within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> leaded by Richard Urunuela, still about the ANR ImpRo demonstrator.
     </dd>
   </dl>
+
+  <iframe width="480" height="360" src="https://www.youtube.com/embed/91nHZ1eDwN4?rel=0" frameborder="0" allowfullscreen></iframe>
 
   <h3 id="cur-2014" >2014</h3>
   <dl>
