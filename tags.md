@@ -5,13 +5,10 @@ icon: "octicon-tag"
 permalink: /tags/
 published: false
 ---
-
-  {% for category in site.categories %}
-    <div id="{{ category | first }}" class="tag-block">
-
-      <h2 class="tag-name">{{ category | first }}</h2>
-
-      <ul class="tag-list">
+{% for category in site.categories %}
+<div id="{{ category | first }}" class="tag-block">
+<h2 class="tag-name">{{ category | first }}</h2>
+<ul class="tag-list">
       {% for posts in category %}
         {% for post in posts %}
          {% if post.title %}
