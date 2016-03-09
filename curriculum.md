@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "About"
 icon: "octicon-person"
 permalink: /curriculum/
@@ -39,11 +38,11 @@ published: true
   <!--
     <span class="medium-octicon octicon-quote" ></span>
   -->
-    Hey! I am studying Computer Science at the Umeå University, Sweden as an exchange student. I would like to work with Real-Time Systems and I like to code in C and Python. During my spare time, I use to cook vegetarian dishes, build funny stuff with my Arduino Uno while I listen to Nine Inch Nails (or few other extreme music bands). I also used to work as a volunteer.
+    Hey! I am studying Computer Science at the Umeå University, Sweden as an exchange student where I study Artificial Intelligence, Distributed Systems and Parallel Computing. I also take a Swedish course because I am from France. Later, I would like to work with Real Time Systems. I like to code in C and Python. During my spare time, I cook vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to Nine Inch Nails (or few other extreme music bands). Finally, I also used to work as a volunteer.
   </p>
 
   <p>
-    Last summer, I did a work placement for the third time within the Real-Time Systems team from a French research lab, the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. I worked on the demonstartor of the research project <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="About ANR ImpRo" >ANR ImpRo</a>. I built up almost every prototypes of the demonstrator. The last one is build using metal parts and is driven by an Arduino board. The video further shows the last prototype.
+    Last summer, I did a work placement for the third time within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, a French research lab. I worked on the demonstrator of the research project <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="About ANR ImpRo" >ANR ImpRo</a>. I built up almost every prototypes of the demonstrator. The last one is made of metal parts and is driven by an Arduino board. The video further shows this prototype. The goal was to create robots able to track and shoot in a ball in order to play a air hockey like game.
   </p>
 
   <h2 id="skills">Skills</h2>
@@ -54,6 +53,7 @@ published: true
     <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
     <dt>Specific skills</dt>
+    <dd>Real Time Systems (programming with Trampoline RTOS)</dd>
     <dd>Distributed Systems development (REST-ful and SOAP applications)</dd>
     <dd>Artficial Intelligence</dd>
     <dt>Tools</dt>
@@ -62,12 +62,10 @@ published: true
     <dd>(X)HTML, CSS, Javascript, PHP, SQL, PL/SQL, Jekyll, Markdown</dd>
     <dt>Writing</dt>
     <dd>LaTeX</dd>
-    <dt>French</dt>
-    <dd>Native language</dd>    
-    <dt>English</dt>
-    <dd>Almost bilingual, I live aboard</dd>
-    <dt>Swedish</dt>
-    <dd>loading...</dd>
+    <dt>Language</dt>
+    <dd><b>French</b> Native language</dd>
+    <dd><b>English</b> Almost bilingual, I live aboard</dd>
+    <dd><b>Swedish</b> loading...</dd>
   </dl>
 
   <h2>Background</h2>
@@ -133,7 +131,7 @@ published: true
     <dt>May - June (10 semaines)</dt>
     <dd>
       <span class="octicon octicon-beaker"></span>
-      Premier stage avec l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. J'étais alors encadré par Jean-Luc Béchennec, Sébastien Faucou et Richard Urunuela. Pendant ce stage, j'ai conçu un premier prototype pour le démonstrateur du projet ImpRo. Ce dernier se consistut de deux robot qui doivent s'échanger une balle à la manière du jeu Pong ou d'un air-hocket. Le robot est construit avec des pièces de Lego et une brique <a href="https://fr.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="La brique Nxt sur wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampolie</a>, le système d'exploitation développé par l'équipe STR, permet de piloter le robot de façon autonaume et en temps-réel. Il s'exécute sur une brique NXT.
+      Premier stage avec l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. J'étais alors encadré par Jean-Luc Béchennec, Sébastien Faucou et Richard Urunuela. Pendant ce stage, j'ai conçu un premier prototype pour le démonstrateur du projet ImpRo. Ce dernier se consistut de deux robot qui doivent s'échanger une balle à la manière du jeu Pong ou d'un air-hocket. Le robot est construit avec des pièces de Lego et une brique <a href="https://fr.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="La brique Nxt sur wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampoline RTOS</a>, le système d'exploitation développé par l'équipe STR, permet de piloter le robot de façon autonaume et en temps-réel. Il s'exécute sur une brique NXT.
     </dd>
   </dl>
 
