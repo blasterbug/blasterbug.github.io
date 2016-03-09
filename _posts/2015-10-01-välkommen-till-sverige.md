@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Välkommen till Sverige"
 date: 2015/10/01 23:58:01
-published : False
+published : false
 categories:
  - erasmus
  - voyage
