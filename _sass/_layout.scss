@@ -25,7 +25,7 @@
     &:visited {
         color: $background-color;
     }
-    
+
     @include media-query($on-palm) {
         font-size: 26px;;
     }
@@ -34,7 +34,8 @@
 .site-nav {
     float: right;
     line-height: 56px;
-    .menu-icon {
+
+    .menu-icon, .page-title {
         display: none;
     }
 
@@ -47,7 +48,7 @@
         &:not(:first-child) {
             margin-left: 10px;
         }
-        
+
         &:hover, {
             color: $brand-color;
         }
@@ -60,54 +61,57 @@
         right: 30px;
         color: $text-color;
         background-color: $background-color;
-        border: 0px solid $text-color;
+        border: 1px solid $text-color;
         border-radius: 3px;
         text-align: right;
         box-shadow: 0px 0px 5px #888888;
 
         .menu-icon {
-            display: block;
+            display: inline-block;
             float: right;
-            width: 36px;
+            width: 26px;
             height: 26px;
-            line-height: 0;
-            padding-top: 10px;
+            padding: 2px;
             text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $text-color;
-                }
-            }
         }
 
         .trigger {
+            margin-top: 15px;
             clear: both;
             display: none;
+            max-width: 60px;
+            max-height: 70px;
         }
 
         &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
+            display: inline-block;
+            padding: 0px;
+        }
 
+        .page-title {
+            display: inline-flex;
         }
 
         .page-link {
-            display: block;
-            padding: 5px 10px;
+            display: inline-flex;
+            float: left;
             color: $text-color;
+            margin: 5px;
+            width: 70px;
+            height: 25px;
+
+            &:first-child {
+                margin-top: 20px;
+            }
         }
     }
-*/
+    */
 }
 
 .trigger {
     padding-left : $spacing-unit / 2;
     padding-right : $spacing-unit / 2;
-    
+
     @include media-query($on-palm) {
         padding-left : 0;
         padding-right : 0;
@@ -270,7 +274,7 @@
             font-size: 18px;
         }
     }
-    
+
     p, dt {
         text-indent: 15px;
     }

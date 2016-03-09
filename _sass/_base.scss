@@ -21,7 +21,7 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-p, dd, dt {
+p, blockquote, dd, dt {
     font-family: $serif-font-family;
     text-align:  justify;
     -moz-text-align-last: left; /* Code for Firefox */
@@ -43,12 +43,6 @@ h1, h2, h3, h4 ,h5, h6,
 ul, ol, dl, figure {
     font-family: $sans-font-family;
 }
-
-p, blockquote {
-    font-family: $serif-font-family;
-}
-
-
 
 /**
  * Images
@@ -139,17 +133,17 @@ a {
  */
 blockquote {
     color: $text-color;
-    border-left: 4px solid $head-background-color;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    border-left: 2px solid $text-color;
+    background-color: $code-background-color;
+    border-radius: 2px;
+    padding: $spacing-unit / 2;
+    font-size: 1em;
     font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
     }
 }
-
 
 
 /**
@@ -159,6 +153,7 @@ pre,
 code {
     font-family: $mono-font-family;
     background-color: $code-background-color;
+    border-radius: 2px;
     white-space:pre-wrap;
 }
 
@@ -167,7 +162,8 @@ code {
 }
 
 pre {
-    border-left: 4px solid $brand-color;
+    border-left: 2px solid $brand-color;
+    border-radius: 2px;
     padding: 5px;
 
     > code {
