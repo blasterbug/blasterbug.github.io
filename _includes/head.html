@@ -1,15 +1,17 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}Blasterbug{% endif %}">
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="benjamin, sientzoff, computer, science, voyage, trip, erasmus, jekyll, blog, student, sweden, france, french, programming, python, c, arduino, real time, rest, restful">
-  <meta name="googlebot" content="noarchive">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <meta property="og:type" content="website" >
+  <meta name="site_name" property="og:site_name" content="blasterbug.github.io" >
+  <meta name="author" property="og:author" content="{% if page.author %}{{ page.author }}{% else %}Blasterbug{% endif %}" >
+  <meta name="description" property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" >
+  <meta name="keywords" property="og:keywords" content="benjamin, sientzoff, computer, science, voyage, trip, erasmus, jekyll, blog, student, sweden, france, french, programming, python, c, arduino, real time, rest, restful" >
+  <meta name="googlebot" content="noarchive" >
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" >
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="/octicons/octicons.css">
   <link rel="icon" type="image/x-icon" href="/gist.ico">
