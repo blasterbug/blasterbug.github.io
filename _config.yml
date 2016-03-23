@@ -11,7 +11,9 @@ github_username: blasterbug
 encoding: "utf-8"
 
 # Plugins
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Conversion
 markdown: kramdown
