@@ -17,18 +17,21 @@ gems:
 
 # Conversion
 markdown: kramdown
+
 kramdown:
+  # GitHub Flavored Makdown
+  input: GFM
+  syntax_highlighter: rouge
   extensions:
       - footnotes
       - hard_wrap
       - no_intra_emphasis
       - autolink
       - strikethrough
-lsi: true
-excerpt_separator: "\n\n"
 
-# GitHub Flavored Makdown
-highlighter: rouge
+lsi: true
+
+excerpt_separator: "\n\n"
 
 # Configuration settings
 timezone: Europe/Paris
@@ -38,11 +41,9 @@ permalink: /:year/:month/:title/
 paginate: 10
 paginate_path: /page:num
 
-
 defaults:
   -
     values:
-      layout: "post"
       author: "Benjamin Sientzoff"
   -
     scope:
