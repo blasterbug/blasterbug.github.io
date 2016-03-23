@@ -15,7 +15,7 @@ h1, h2 {
     float: left;
     margin: 5px;
     padding: 0;
-    
+
     @include media-query($on-palm) {
         float: left;
         margin: auto;
@@ -34,7 +34,7 @@ h1, h2 {
     width: 280px;
     line-height: 1;
     margin: 8px;
-    
+
     @include media-query($on-palm) {
         max-width: 80%;
         padding-right: $spacing-unit / 2;
@@ -69,7 +69,7 @@ section {
     max-width: 67%;
     padding: 1%;
     margin: 0px 5px 5px 0px;
-    
+
     @include media-query($on-palm) {
         float: left;
         margin: auto;
@@ -77,18 +77,6 @@ section {
         margin: 5px;
         padding: 0;
     }
-}
-
-dl {
-    padding: 0px;
-}
-
-dt {
-    font-weight: 600;
-    color: $text-color;
-    font-family: $sans-font-family;
-    font-size: 1.1em;
-    margin-top: 10px;
 }
 
 img.avatar {
