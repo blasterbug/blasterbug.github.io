@@ -14,5 +14,11 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" >
   <link rel="stylesheet" href="{{ "/css/octicons.css" | prepend: site.baseurl }}">
+  {% if page.code %}
+  <link rel="stylesheet" href="{{ "/css/syntax-highlighting.css" | prepend: site.baseurl }}" >
+  {% endif %}
+  {% if page.about %}
+  <link rel="stylesheet" href="{{ "/css/curriculum.css" | prepend: site.baseurl }}" >
+  {% endif %}
   <link rel="icon" type="image/x-icon" href="/gist.ico">
 </head>

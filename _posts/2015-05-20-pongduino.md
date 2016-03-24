@@ -1,7 +1,8 @@
 ---
 title: "Pongduino"
 date: 15/05/20 16:11:27
-published : false
+published : true
+code: true
 categories:
  - irccyn
  - arduino
@@ -11,7 +12,7 @@ Pendant mes stages au sein de l'[Institut de Recherche en Communication et Cyber
 
 Le démonstrateur est composé de deux mobiles qui s'échangent une balle. Les mobiles sont des robots Lego équipés d'une brique [Lego Mindstorms NXT] tournant sous [Trampoline]. Trampoline est le système d'exploitation temps réel développé par l'équipe STR de l'IRCCyN. Il permet de superviser la commande du robot.
 
-~~~Arduino
+~~~c
 // import libraries
 #include <I2C.h>
 #include <DistNx.h>

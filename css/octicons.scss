@@ -1,3 +1,5 @@
+---
+---
 $octicons-font-path: "." !default;
 $octicons-version:   "22dab811a5aa6c7ae0f71074a3480b993f7ef79b";
 
@@ -13,8 +15,9 @@ $octicons-version:   "22dab811a5aa6c7ae0f71074a3480b993f7ef79b";
 
 // .octicon is optimized for 16px.
 // .mega-octicon is optimized for 32px but can be used larger.
-.octicon, .mega-octicon {
+.octicon, .mega-octicon, .medium-octicon {
   font: normal normal normal 16px/1 octicons;
+  width: 16px;
   display: inline-block;
   text-decoration: none;
   text-rendering: auto;

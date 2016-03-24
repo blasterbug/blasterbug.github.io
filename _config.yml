@@ -45,6 +45,7 @@ defaults:
   -
     values:
       author: "Benjamin Sientzoff"
+      code: false
   -
     scope:
       path: ""

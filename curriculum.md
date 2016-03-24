@@ -3,6 +3,7 @@ title: "About"
 icon: "octicon-person"
 permalink: /curriculum/
 published: true
+about: true
 ---
 <div id="cv-header">
 

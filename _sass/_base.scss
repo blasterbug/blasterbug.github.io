@@ -41,19 +41,6 @@ p, blockquote, dd, dt {
    border: 1px solid $border-color;
  }
 
- /**
-  * tables
-  */
-
- /**table, td, tr, th {
-   font-family: $sans-font-family;
-   padding: 5px;
-   box-sizing: border-box;
-   border-radius: 2px;
-   border: 2px solid #999;
- }
-**/
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -282,7 +269,7 @@ pre {
 /**
  * Icons
  */
-.icon {
+/*.icon {
 
     > svg {
         display: inline-block;
@@ -295,3 +282,4 @@ pre {
         }
     }
 }
+*/
