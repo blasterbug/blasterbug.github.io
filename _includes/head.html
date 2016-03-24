@@ -11,8 +11,8 @@
 
   <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" >
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="/octicons/octicons.css">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" >
+  <link rel="stylesheet" href="{{ "/css/octicons.css" | prepend: site.baseurl }}">
   <link rel="icon" type="image/x-icon" href="/gist.ico">
 </head>
