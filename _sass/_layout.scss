@@ -161,6 +161,10 @@
     border-right: 1px solid $border-color;
     width: -webkit-calc(30% - (#{$spacing-unit} / 2));
     width:         calc(30% - (#{$spacing-unit} / 2));
+
+    @include media-query($on-palm) {
+      border-right-style: hidden;;
+    }
 }
 
 .footer-col-3 {
