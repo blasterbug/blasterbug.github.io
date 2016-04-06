@@ -33,13 +33,11 @@ about: true
 
 <section>
 
-  <pre><span class="octicon octicon-alert"></span> This page is not completly translated!</pre>
-
   <p id="aboutme">
   <!--
     <span class="medium-octicon octicon-quote" ></span>
   -->
-    Hey! I am studying Computer Science at the Umeå University, Sweden as an exchange student where I study Artificial Intelligence, Distributed Systems and Parallel Computing. I also take a Swedish course because I am from France. Later, I would like to work with Real Time Systems. I like to code in C and Python. During my spare time, I cook vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to Nine Inch Nails (or few other extreme music bands). Finally, I also used to work as a volunteer.
+    Hey! I am studying Computer Science at the Umeå University, Sweden as an exchange student. I am from France. I study Artificial Intelligence, Distributed Systems and Parallel Computing. I also take a Swedish course. Later, I would like to work with Real Time Systems. I like to code in C and Python. During my spare time, I cook vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to some extreme music. Finally, I also used to work as a volunteer.
   </p>
 
   <p>
@@ -49,18 +47,18 @@ about: true
   <h2 id="skills">Skills</h2>
   <dl>
     <dt>Designing</dt>
-    <dd>UML, Merise, Petri nets, Design Paterns</dd>
+    <dd>UML, Merise, Petri nets, Design Patterns</dd>
     <dt>Programming</dt>
     <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
     <dt>Specific skills</dt>
     <dd>Real Time Systems (programming with Trampoline RTOS)</dd>
-    <dd>Distributed Systems development (REST-ful and SOAP applications)</dd>
-    <dd>Artficial Intelligence</dd>
+    <dd>Distributed Systems development (REST-full and SOAP applications)</dd>
+    <dd>Artificial Intelligence</dd>
     <dt>Tools</dt>
     <dd>JUnit, git, Doxygen</dd>
     <dt>Web</dt>
-    <dd>(X)HTML, CSS, Javascript, PHP, SQL, PL/SQL, Jekyll, Markdown</dd>
+    <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Jekyll, Markdown</dd>
     <dt>Writing</dt>
     <dd>LaTeX</dd>
     <dt>Language</dt>
@@ -75,7 +73,7 @@ about: true
     <dt>September</dt>
     <dd>
       <span class="octicon octicon-book"></span>
-      Master 1 Computer Science at Umeå Universitet as an exchange student.
+      Master's degree, first year in Computer Science at Umeå Universitet as an exchange student.
     </dd>
     <dt>August</dt>
     <dd>
@@ -84,12 +82,12 @@ about: true
     </dd>
     <dd>
       <span class="octicon octicon-mortar-board"></span>
-      Get my bachelor degree from the University of Nantes in Computer Science.
+      Graduated from the University of Nantes in Computer Science.
     </dd>
-    <dt>April - Jully</dt>
+    <dt>April - July</dt>
     <dd>
       <span class="octicon octicon-beaker"></span>
-      Third internship within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> leaded by Richard Urunuela, still about the ANR ImpRo demonstrator.
+      Third internship within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> leaded by Richard Urunuela, still about the ANR ImpRo demonstrator. This time, my task was to build a new robot with metal parts.
     </dd>
   </dl>
 
@@ -100,39 +98,41 @@ about: true
     <dt>September</dt>
     <dd>
       <span class="octicon octicon-jersey"></span>
-      Bénévolat pour la treizième édition de <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>.
+      Volunteering for the thirteenth edition of <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>, a festival about Digital art.
     </dd>
-    <dd>Retour à la fac pour ma licence 3 Informatique.</dd>
 
-    <dt>June - Jully (12 semaines)</dt>
+    <dt>June - July (12 weeks)</dt>
     <dd>
       <span class="octicon octicon-beaker"></span>
-      Second stage au sein de l'équipe STR de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> encadré par Richard Urunuela, stage fait à titre optionel. Ma mission était d'intégrer une caméra à une brique <a href="https://fr.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="La brique Nxt sur wikipedia" >Lego Mindstorms NXT</a>. La brique NXT est utilisée pour piloter le robot du démonstrateur du projet ImpRo.<br/> La caméra est en réalité un <a href="http://arduino.cc/en/Mayn/ArduinoBoardUno" target="_blank" title="Arduino Uno" >Arduino Uno</a> sur lequel est branché une <a href="http://www.cmucam.org/projects/cmucam4/" >CMUcam4</a> et une rampe de 5 capteurs de proximité. La communication est effectuée en I2C et en temps-réel. Voir <a href="pongduino/" >Pongduino</a> pour plus de détails.
+      Second internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> with the Real Time System team, leaded by Richard Urunuela. The purpose was adding a camera to the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on wikipedia" >Lego Mindstorms NXT</a>.  The NXT is used to control the robots of the ANR ImpRo demonstrator.<br/> The camera is actually an <a href="http://arduino.cc/en/Mayn/ArduinoBoardUno" target="_blank" title="Arduino Uno" >Arduino Uno</a> board connected to a <a href="http://www.cmucam.org/projects/cmucam4/" >CMUcam4</a> and five proximity sensors. The Arduino board manages the CMU cam and the sensors and send the data to the NXT via I2C.
     </dd>
   </dl>
 
   <h3 id="cur-2013" >2013</h3>
   <dl>
     <dt>September</dt>
-    <dd>Admission en Licence 2 Informatique à L'université de Nantes.</dd>
+
+    <dd>
+      <span class="octicon octicon-book"></span>
+      Start my bachelor degree in Computer Science at the University of Nantes, France.</dd>
     <dd>
       <span class="octicon octicon-briefcase"></span>
-      Embauché à Leader Price Nantes (rue des Châlatres) en coutrat étudiant.
+      Start part-time working as a cashier at a mini-market.
     </dd>
     <dd>
       <span class="octicon octicon-jersey"></span>
-      Bénévolat pour la douzième édition du festivale <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>.
+      Volunteering for the twelfth edition of <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>, a festival about Digital art.
     </dd>
-    <dt>Jully</dt>
+    <dt>July</dt>
     <dd>
       <span class="octicon octicon-mortar-board"></span>
-      Obtention du Diplôme Universitaire de Technologie Informatique à l'Insitut Universitaire de Technologie de Nantes.
+      Got my two-years degree in Computer Science (DUT : Diplôme Universitaire de Technologie Informatique) from The University of Nantes, France.
     </dd>
 
-    <dt>May - June (10 semaines)</dt>
+    <dt>May - June (10 weeks)</dt>
     <dd>
       <span class="octicon octicon-beaker"></span>
-      Premier stage avec l'équipe Système Temps Réel de l'<a href="http://www.irccyn.ec-nantes.fr/fr/l-irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>. J'étais alors encadré par Jean-Luc Béchennec, Sébastien Faucou et Richard Urunuela. Pendant ce stage, j'ai conçu un premier prototype pour le démonstrateur du projet ImpRo. Ce dernier se consistut de deux robot qui doivent s'échanger une balle à la manière du jeu Pong ou d'un air-hocket. Le robot est construit avec des pièces de Lego et une brique <a href="https://fr.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="La brique Nxt sur wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampoline RTOS</a>, le système d'exploitation développé par l'équipe STR, permet de piloter le robot de façon autonaume et en temps-réel. Il s'exécute sur une brique NXT.
+      First internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, within the Real Time Systems team. I was leaded by Jean-Luc Béchennec, Sébastien Faucou and Richard Urunuela. During this internship, I designed a first prototype for the demonstrator of the ANR ImpRo project. The demonstrator is a table where two robots hit back and forth a ball. It is a kind of an air-hockey. Robots are built with Lego and controlled by the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampoline RTOS</a>, the operating system developed by the team, allows the robot to be autonomous with Real Time features. It runs on the NXT.
     </dd>
   </dl>
 
@@ -145,7 +145,7 @@ about: true
     </dd>
   </dl>
 
-  <div style="margin: auto; width: 30%"><span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span> <span class="octicon octicon-primitive-dot"></span></div>
+  <div style="margin: auto; width: 32px; display:block;"><span class="mega-octicon octicon-ellipsis"></span></div>
 
   <h3 id="cur-1992" >1992</h3>
   <dl>
