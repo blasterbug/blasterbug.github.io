@@ -118,7 +118,6 @@
 }
 
 
-
 /**
  * Site footer
  */
@@ -162,9 +161,7 @@
 
     border-left: 1px solid $border-color;
     border-right: 1px solid $border-color;
-    @include media-query($on-palm) {
-      border-right-style: hidden;
-    }
+
 }
 
 .footer-col-3 {
@@ -188,6 +185,10 @@
 }
 
 @include media-query($on-palm) {
+    .footer-col-2 {
+      border-left-style: hidden;
+    }
+
     .footer-col-2,
     .footer-col-3 {
         float: left;
