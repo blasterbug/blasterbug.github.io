@@ -12,6 +12,7 @@ encoding: "utf-8"
 
 # Plugins
 gems:
+  - jekyll-github-metadata
   - jekyll-paginate
   - jekyll-sitemap
 
