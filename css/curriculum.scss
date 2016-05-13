@@ -57,8 +57,11 @@ h1, h2 {
     display: block;
 }
 
-#menu li {
+#menu {
   border-top: 1px solid $border-color;
+}
+
+#menu li {
   padding-left : 22px;
 }
 
