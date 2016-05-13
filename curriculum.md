@@ -10,13 +10,13 @@ about: true
   <img class="avatar" src="https://avatars0.githubusercontent.com/u/891025?s=320" alt="" title="" />
 
   <ul>
+    <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
     <li>
       <span class="octicon octicon-link"></span>
       <a href="http://www.github.com/blasterbug" title="My profil on GitHub">
         Benjamin Sientzoff
       </a>
     </li>
-    <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
   </ul>
 
   <ul id="menu">
