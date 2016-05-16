@@ -1,5 +1,6 @@
 ---
 title: "About"
+date: 2016/05/16 15:58:01
 icon: "octicon-person"
 permalink: /curriculum/
 published: true
@@ -10,24 +11,24 @@ about: true
   <img class="avatar" src="https://avatars0.githubusercontent.com/u/891025?s=320" alt="" title="" />
 
   <ul>
+    <li><h4>Benjamin Sientzoff</h4></li>
     <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
-    <li>
-      <span class="octicon octicon-link"></span>
-      <a href="http://www.github.com/blasterbug" title="My profil on GitHub">
-        Benjamin Sientzoff
-      </a>
-    </li>
   </ul>
 
   <ul id="menu">
     <li><a href="#aboutme">About</a></li>
     <li><a href="#skills">Skills</a></li>
+    <!--
+    <li><a href="#cur-2016" title="?!" >2016</a></li>
+    -->
     <li><a href="#cur-2015" title="Sweden!" >2015</a></li>
     <li><a href="#cur-2014" title="" >2014</a></li>
     <li><a href="#cur-2013" title="" >2013</a></li>
     <li><a href="#cur-2011" title="" >2011</a></li>
      <li><a href="#cur-1992" title="" >1992</a></li>
   </ul>
+
+
 
 </div>
 
@@ -41,7 +42,11 @@ about: true
   </p>
 
   <p>
-    Last summer, I did a work placement for the third time within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, a French research lab. I worked on the demonstrator of the research project <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="About ANR ImpRo" >ANR ImpRo</a>. I built up almost every prototypes of the demonstrator. The last one is made of metal parts and is driven by an Arduino board. The video further shows this prototype. The goal was to create robots able to track and shoot in a ball in order to play a air hockey like game.
+    Back to summer 2015, I did a work placement for the third time within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, a French research lab. I worked on the demonstrator of the research project <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="About ANR ImpRo" >ANR ImpRo</a>. I built up almost every prototypes of the demonstrator. The last one is made of metal parts and is driven by an Arduino board. The video further shows this prototype. The goal was to create robots able to track and shoot in a ball in order to play a air hockey like game.
+  </p>
+
+  <p>
+    Then I moved to Umeå, (north) Sweden, where I start my Master's degree as an exchange student. I learn a bit of Swedish, artificial intelligence, distributed systems and how works a database management system.
   </p>
 
   <h2 id="skills">Skills</h2>
