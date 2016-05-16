@@ -10,12 +10,12 @@ about: true
 
   <img class="avatar" src="https://avatars0.githubusercontent.com/u/891025?s=320" alt="" title="" />
 
-  <ul>
-    <li><h4>Benjamin Sientzoff</h4></li>
+  <ul class="cv-header-list" >
+    <li><h3>Benjamin Sientzoff</h3></li>
     <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
   </ul>
 
-  <ul id="menu">
+  <ul id="menu"  class="cv-header-list" >
     <li class="cv-list-item" ><a href="#aboutme">About</a></li>
     <li class="cv-list-item" ><a href="#skills">Skills</a></li>
     <!--
