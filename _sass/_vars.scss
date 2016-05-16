@@ -3,9 +3,9 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans|PT+Serif);
 
 // Our variables
-$serif-font-family: 'PT Serif', serif;
+$serif-font-family: 'PT Serif', "Linux Libertine",Georgia,Times,serif;
 $sans-font-family: 'PT Sans', sans;
-$mono-font-family: 'PT Mono', Consolas, Inconsolata, Monospace;
+$mono-font-family: 'PT Mono', Inconsolata, Monospace, Monaco, Consolas;
 
 $base-font-size:   15px;
 $small-font-size:  $base-font-size * 0.875;
@@ -14,7 +14,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $head-background-color: #5F7C8A;
-$background-color: #F5F5F5;
+$background-color: #F9F9F9;
 $code-background-color: #FCFCFC;
 
 $border-color: #DDD;
@@ -44,7 +44,7 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
