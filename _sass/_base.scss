@@ -4,41 +4,41 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /**
  * Basic styling
  */
 body {
-    font-family: $serif-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 400;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+  font-family: $serif-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 400;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
 }
 
 /**
  * Readable text
  */
 p, blockquote, dd, dt {
-    font-family: $serif-font-family;
-    text-align:  justify;
-    -moz-text-align-last: left; /* Code for Firefox */
-    text-align-last:  left;
+  font-family: $serif-font-family;
+  text-align:  justify;
+  -moz-text-align-last: left; /* Code for Firefox */
+  text-align-last:  left;
 }
 
 /**
  * bordered element
  */
  figure, blockquote, pre, code {
-   background-color: $code-background-color;
-   box-sizing: border-box;
-   border-radius: 1px;
-   border: 1px solid $border-color;
+  background-color: $code-background-color;
+  box-sizing: border-box;
+  border-radius: 1px;
+  border: 1px solid $border-color;
  }
 
 table {
@@ -86,21 +86,21 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 
 h1, h2, h3, h4 ,h5, h6,
 ul, ol, dl, figure {
-    font-family: $sans-font-family;
+  font-family: $sans-font-family;
 }
 
 /**
  * Images
  */
 img {
-    margin: auto;
-    max-width: 100%;
-    vertical-align: middle;
+  margin: auto;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 
@@ -109,39 +109,37 @@ img {
  * Figures
  */
 figure > img {
-    display: block;
+  display: block;
 }
 
 figcaption {
-    font-size: $small-font-size;
+  font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+  margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
 }
 
 dl {
-    padding: 0px;
+  padding: 0px;
 }
 
 dt {
-    font-weight: 600;
-    color: $text-color;
-    font-family: $sans-font-family;
-    font-size: 1.1em;
-    margin-top: 10px;
+  font-weight: 600;
+  color: $text-color;
+  font-family: $sans-font-family;
+  font-size: 1.1em;
+  margin-top: 10px;
 }
 
 
@@ -149,41 +147,41 @@ dt {
  * Headings
  */
 header {
-    font-family: $sans-font-family;
+  font-family: $sans-font-family;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: $title-color;
-    font-weight: 500;
+  color: $title-color;
+  font-weight: 500;
 }
 
-h1, {
-    font-size: 2em;
+h1 {
+  font-size: 2em;
 }
 
-h2, {
-    font-size: 1.8em;
+h2 {
+  font-size: 1.8em;
 }
 
 h3, {
-    font-size: 1.6em;
+  font-size: 1.6em;
 }
 
 h4, h5, h6 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 /**
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
+  color: $brand-color;
+  text-decoration: none;
 
-    &:hover, &:visited {
-        color: $brand-color;
-        text-decoration: underline;
-    }
+  &:hover, &:visited {
+    color: $brand-color;
+    text-decoration: underline;
+  }
 }
 
 
@@ -192,16 +190,16 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $text-color;
-    border-left: 2px solid $text-color;
-    background-color: $code-background-color;
-    padding: $spacing-unit / 2;
-    font-size: 1em;
-    font-style: italic;
+  color: $text-color;
+  border-left: 2px solid $text-color;
+  background-color: $code-background-color;
+  padding: $spacing-unit / 2;
+  font-size: 1em;
+  font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
 
 
@@ -210,25 +208,25 @@ blockquote {
  */
 pre,
 code {
-    font-family: $mono-font-family;
-    white-space: pre-wrap;
-    marging: 0;
+  font-family: $mono-font-family;
+  white-space: pre-wrap;
+  marging: 0;
 }
 
 code {
-    padding: 1px 5px 1px;
+  padding: 1px 5px 1px;
 }
 
 pre {
-    border-left: 2px solid $brand-color;
-    border-radius: 1px;
-    padding: 5px;
+  border-left: 2px solid $brand-color;
+  border-radius: 1px;
+  padding: 5px;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 
@@ -236,20 +234,20 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
 }
 
 
@@ -259,11 +257,11 @@ pre {
  */
 %clearfix {
 
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 
