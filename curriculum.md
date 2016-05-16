@@ -16,19 +16,17 @@ about: true
   </ul>
 
   <ul id="menu">
-    <li><a href="#aboutme">About</a></li>
-    <li><a href="#skills">Skills</a></li>
+    <li class="cv-list-item" ><a href="#aboutme">About</a></li>
+    <li class="cv-list-item" ><a href="#skills">Skills</a></li>
     <!--
     <li><a href="#cur-2016" title="?!" >2016</a></li>
     -->
-    <li><a href="#cur-2015" title="Sweden!" >2015</a></li>
-    <li><a href="#cur-2014" title="" >2014</a></li>
-    <li><a href="#cur-2013" title="" >2013</a></li>
-    <li><a href="#cur-2011" title="" >2011</a></li>
-     <li><a href="#cur-1992" title="" >1992</a></li>
+    <li class="cv-list-item" ><a href="#cur-2015" title="Sweden!" >2015</a></li>
+    <li class="cv-list-item" ><a href="#cur-2014" title="" >2014</a></li>
+    <li class="cv-list-item" ><a href="#cur-2013" title="" >2013</a></li>
+    <li class="cv-list-item" ><a href="#cur-2011" title="" >2011</a></li>
+    <li class="cv-list-item" ><a href="#cur-1992" title="" >1992</a></li>
   </ul>
-
-
 
 </div>
 
