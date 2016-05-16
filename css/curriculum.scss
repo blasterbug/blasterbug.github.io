@@ -4,7 +4,7 @@
 
 h1, h2 {
   @include media-query($on-palm) {
-    margin: 30px;
+    margin: $spacing-unit;
   }
 }
 
@@ -16,8 +16,7 @@ h1, h2 {
   max-width: 28%;
   position: float;
   float: left;
-  margin: 5px;
-  padding: 5px;
+  padding: $spacing-unit / 2;
 
   border-right: 1px solid $border-color;
 
@@ -27,20 +26,18 @@ h1, h2 {
     max-width: 98%;
     border-style: hidden;
   }
-  ul {
-    border-top: 1px solid $border-color;
-  }
 }
 
 #cv-header ul {
   display: list-item;
   list-style: none;
-  padding: 0;
+  padding: $spacing-unit / 3;
   margin: 0;
+  border-top: 1px solid $border-color;
 }
 
-#cv-header li {
-  width: 280px;
+.cv-list-item {
+  width: 200px;
   line-height: 1;
   margin: 8px;
 
@@ -51,51 +48,28 @@ h1, h2 {
   }
 }
 
-#cv-header ul a {
+#cv-header > ul a {
   color: $brand-color;
   display: inline;
 }
 
-#cv-header ul a strong {
-  display: block;
-}
 
-
-#menu li {
+#menu > li {
   padding-left : 20px;
-}
-
-#social {
-  margin: 10px;
-}
-
-#social li {
-  margin: 5 px;
-  width: 32px;
-  float: left;
-  display: inline;
-}
-
-
-.social-icon {
-  height: 32px;
-  color: $text-color;
 }
 
 /**
  * curriculum content
  */
-
-section .octicon {
-  width: 18px;
-  text-align: center;
-}
-
 section {
   float: left;
   max-width: 67%;
   padding: 1%;
-  margin: 0px 5px 5px 0px;
+
+  > .octicon {
+    width: 18px;
+    text-align: center;
+  }
 
   @include media-query($on-palm) {
     float: left;
@@ -106,8 +80,7 @@ section {
   }
 }
 
-img.avatar {
-  margin: 10px 0;
+.avatar {
   border-radius: 3px;
   box-shadow: 0px 1px 3px $shadow-color;
 }
