@@ -18,9 +18,7 @@ about: true
   <ul id="menu"  class="cv-header-list" >
     <li class="cv-list-item" ><a href="#aboutme">About</a></li>
     <li class="cv-list-item" ><a href="#skills">Skills</a></li>
-    <!--
     <li><a href="#cur-2016" title="?!" >2016</a></li>
-    -->
     <li class="cv-list-item" ><a href="#cur-2015" title="Sweden!" >2015</a></li>
     <li class="cv-list-item" ><a href="#cur-2014" title="" >2014</a></li>
     <li class="cv-list-item" ><a href="#cur-2013" title="" >2013</a></li>
@@ -51,26 +49,41 @@ about: true
   <dl>
     <dt>Designing</dt>
     <dd>UML, Merise, Petri nets, Design Patterns</dd>
+    
     <dt>Programming</dt>
     <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
+    
     <dt>Specific skills</dt>
     <dd>Real Time Systems (programming with Trampoline RTOS)</dd>
     <dd>Distributed Systems development (REST-full and SOAP applications)</dd>
     <dd>Artificial Intelligence</dd>
+    
     <dt>Tools</dt>
     <dd>JUnit, git, Doxygen</dd>
+    
     <dt>Web</dt>
-    <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Jekyll, Markdown</dd>
+    <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Markdown</dd>
+    <dd>Django, Jekyll</dd>
+    
     <dt>Writing</dt>
     <dd>LaTeX</dd>
+    
     <dt>Language</dt>
     <dd><b>French</b> Native language</dd>
     <dd><b>English</b> Almost bilingual, I live aboard</dd>
-    <dd><b>Swedish</b> loading...</dd>
+    <dd><b>Swedish</b> I can introduce myself and read simple text</dd>
   </dl>
 
   <h2>Background</h2>
+  <h3 id="cur-2016" >2016</h3>
+  <dl>
+    <dt>May</dt>
+    <dd>
+    <span class="octicon octicon-beaker"></span>
+    Django worjshop at <a href="http://www.codemill.se/" >Codemill</<a>
+    </dd>
+  </dl>
   <h3 id="cur-2015" >2015</h3>
   <dl>
     <dt>September</dt>
