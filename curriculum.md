@@ -58,6 +58,7 @@ about: true
     <dd>Real Time Systems (programming with Trampoline RTOS)</dd>
     <dd>Distributed Systems development (REST-full and SOAP applications)</dd>
     <dd>Artificial Intelligence</dd>
+    <dd>Network and UNIX systems administration</dd>
     
     <dt>Tools</dt>
     <dd>JUnit, git, Doxygen</dd>
