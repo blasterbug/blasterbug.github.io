@@ -81,7 +81,7 @@ about: true
     <dt>May</dt>
     <dd>
     <span class="octicon octicon-beaker"></span>
-    Django worjshop at <a href="http://www.codemill.se/" >Codemill</<a>
+    Django worjshop at <a href="http://www.codemill.se/" >Codemill</a>
     </dd>
   </dl>
   <h3 id="cur-2015" >2015</h3>
