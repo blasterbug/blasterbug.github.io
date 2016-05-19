@@ -90,7 +90,7 @@ about: true
     <dt>September</dt>
     <dd>
       <span class="octicon octicon-book"></span>
-      Master's degree, first year in Computer Science at Umeå Universitet as an exchange student.
+      Master's degree, first year in Computer Science at Umeå University as an exchange student.
     </dd>
     <dt>August</dt>
     <dd>
@@ -121,7 +121,7 @@ about: true
     <dt>June - July (12 weeks)</dt>
     <dd>
       <span class="octicon octicon-beaker"></span>
-      Second internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> with the Real Time System team, leaded by Richard Urunuela. The purpose was adding a camera to the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on wikipedia" >Lego Mindstorms NXT</a>.  The NXT is used to control the robots of the ANR ImpRo demonstrator.<br/> The camera is actually an <a href="http://arduino.cc/en/Mayn/ArduinoBoardUno" target="_blank" title="Arduino Uno" >Arduino Uno</a> board connected to a <a href="http://www.cmucam.org/projects/cmucam4/" >CMUcam4</a> and five proximity sensors. The Arduino board manages the CMU cam and the sensors and send the data to the NXT via I2C.
+      Second internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> with the Real Time System team, leaded by Richard Urunuela. The purpose was adding a camera to the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on Wikipedia" >Lego Mindstorms NXT</a>.  The NXT is used to control the robots of the ANR ImpRo demonstrator.<br/> The camera is actually an <a href="http://arduino.cc/en/Mayn/ArduinoBoardUno" target="_blank" title="Arduino Uno" >Arduino Uno</a> board connected to a <a href="http://www.cmucam.org/projects/cmucam4/" >CMUcam4</a> and five proximity sensors. The Arduino board manages the CMU cam and the sensors and send the data to the NXT via I2C.
     </dd>
   </dl>
 
@@ -149,7 +149,7 @@ about: true
     <dt>May - June (10 weeks)</dt>
     <dd>
       <span class="octicon octicon-beaker"></span>
-      First internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, within the Real Time Systems team. I was leaded by Jean-Luc Béchennec, Sébastien Faucou and Richard Urunuela. During this internship, I designed a first prototype for the demonstrator of the ANR ImpRo project. The demonstrator is a table where two robots hit back and forth a ball. It is a kind of an air-hockey. Robots are built with Lego and controlled by the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampoline RTOS</a>, the operating system developed by the team, allows the robot to be autonomous with Real Time features. It runs on the NXT.
+      First internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, within the Real Time Systems team. I was leaded by Jean-Luc Béchennec, Sébastien Faucou and Richard Urunuela. During this internship, I designed a first prototype for the demonstrator of the ANR ImpRo project. The demonstrator is a table where two robots hit back and forth a ball. It is a kind of an air-hockey. Robots are built with Lego and controlled by the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on Wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampoline RTOS</a>, the operating system developed by the team, allows the robot to be autonomous with Real Time features. It runs on the NXT.
     </dd>
   </dl>
 
