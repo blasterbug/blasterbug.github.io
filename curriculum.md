@@ -11,7 +11,7 @@ about: true
   <img class="avatar" src="https://avatars0.githubusercontent.com/u/891025?s=320" alt="" title="" />
 
   <ul class="cv-header-list" >
-    <li><h3>Benjamin Sientzoff</h3></li>
+    <li><h3 id="name" >Benjamin Sientzoff</h3></li>
     <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
   </ul>
 
@@ -49,27 +49,27 @@ about: true
   <dl>
     <dt>Designing</dt>
     <dd>UML, Merise, Petri nets, Design Patterns</dd>
-    
+
     <dt>Programming</dt>
     <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
-    
+
     <dt>Specific skills</dt>
     <dd>Real Time Systems (programming with Trampoline RTOS)</dd>
     <dd>Distributed Systems development (REST-full and SOAP applications)</dd>
     <dd>Artificial Intelligence</dd>
     <dd>Network and UNIX systems administration</dd>
-    
+
     <dt>Tools</dt>
     <dd>JUnit, git, Doxygen</dd>
-    
+
     <dt>Web</dt>
     <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Markdown</dd>
     <dd>Django, Jekyll</dd>
-    
+
     <dt>Writing</dt>
     <dd>LaTeX</dd>
-    
+
     <dt>Language</dt>
     <dd><b>French</b> Native language</dd>
     <dd><b>English</b> Almost bilingual, I live aboard</dd>

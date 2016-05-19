@@ -8,12 +8,16 @@ h1, h2 {
   }
 }
 
+#name {
+  letter-spacing: 1px;
+  font-size: 2em;
+}
 /**
  * curriculum menu
  */
 #cv-header {
-  min-width: 200px;
-  max-width: 28%;
+  //min-width: 200px;
+  max-width: 25%;
   position: float;
   float: left;
   padding: $spacing-unit / 2;
@@ -60,7 +64,7 @@ h1, h2 {
  */
 section {
   float: left;
-  max-width: 67%;
+  max-width: 75%;
   padding: 1%;
 
   > .octicon {
