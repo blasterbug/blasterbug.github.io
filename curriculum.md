@@ -18,7 +18,7 @@ about: true
   <ul id="menu"  class="cv-header-list" >
     <li class="cv-list-item" ><a href="#aboutme">About</a></li>
     <li class="cv-list-item" ><a href="#skills">Skills</a></li>
-    <li><a href="#cur-2016" title="?!" >2016</a></li>
+    <li class="cv-list-item" ><a href="#cur-2016" title="" >2016</a></li>
     <li class="cv-list-item" ><a href="#cur-2015" title="Sweden!" >2015</a></li>
     <li class="cv-list-item" ><a href="#cur-2014" title="" >2014</a></li>
     <li class="cv-list-item" ><a href="#cur-2013" title="" >2013</a></li>
