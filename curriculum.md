@@ -42,7 +42,7 @@ about: true
   </p>
 
   <p>
-    Then I moved to Umeå, (north) Sweden, where I start my Master's degree as an exchange student. I learn a bit of Swedish, artificial intelligence, distributed systems and how works a database management system.
+    Then I moved to Umeå, (north) Sweden, where I start my Master's degree as an exchange student. I learn a bit of Swedish, artificial intelligence, distributed systems and how a database management system works.
   </p>
 
   <h2 id="skills">Skills</h2>
