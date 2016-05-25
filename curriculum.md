@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2016/05/19 9:15:48
+date: 2016/05/25 11:55:48
 icon: "octicon-person"
 permalink: /curriculum/
 published: true
@@ -51,7 +51,7 @@ about: true
     <dd>UML, Merise, Petri nets, Design Patterns</dd>
 
     <dt>Programming</dt>
-    <dd>C, C++, OCaml, Python, Java, Bash, Assembly language, ADA95</dd>
+    <dd>C, C++, Python, Java, Bash, OCaml, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
 
     <dt>Specific skills</dt>
@@ -61,11 +61,11 @@ about: true
     <dd>Network and UNIX systems administration</dd>
 
     <dt>Tools</dt>
-    <dd>JUnit, git, Doxygen</dd>
+    <dd>git, Doxygen, JUnit, Maven</dd>
 
     <dt>Web</dt>
     <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Markdown</dd>
-    <dd>Django, Jekyll</dd>
+    <dd>Jekyll, Django</dd>
 
     <dt>Writing</dt>
     <dd>LaTeX</dd>
