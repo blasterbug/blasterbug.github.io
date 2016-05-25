@@ -81,6 +81,10 @@ about: true
   <dl>
     <dt>May</dt>
     <dd>
+    <span class="octicon octicon-comment-discussion"></span>
+    Umeå Tech Arena.
+    </dd>
+    <dd>
     <span class="octicon octicon-beaker"></span>
     Django workshop at <a href="http://www.codemill.se/" >Codemill</a>.
     </dd>
