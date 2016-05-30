@@ -82,7 +82,7 @@ about: true
     <dt>May</dt>
     <dd>
     <span class="octicon octicon-comment-discussion"></span>
-    Umeå Tech Arena.
+    <a href="http://www.uminovainnovation.se/evenemang/umea-tech-arena-2016" >Umeå Tech Arena</a>.
     </dd>
     <dd>
     <span class="octicon octicon-beaker"></span>
