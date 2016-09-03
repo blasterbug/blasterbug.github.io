@@ -14,7 +14,7 @@
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">
               {% if page.icon %}
                  <span class="medium-octicon {{ page.icon }}"></span>
-                 {% octicon page.icon height:24 class:"right left" %}
+                 {% octicon {page.icon} height:24 class:"right left" %}
               {% endif %}
               <span class="page-title">{{ page.title }}</span>
           </a>
