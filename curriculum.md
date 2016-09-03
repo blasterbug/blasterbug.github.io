@@ -34,7 +34,7 @@ about: true
   <!--
     <span class="medium-octicon octicon-quote" ></span>
   -->
-    Hey! I am skilled developer living at Umeå, in the northen part of Sweden and I am currently learning Swedish because I want to settle here. Back to September 2016, I came as an exchange student from France to study Computer Science at Umeå University. I have studied Artificial Intelligence, Distributed Systems and Parallel Computing. I like to code in C and Python but my skills are larger. During my spare time, I enjoy cooking vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to some (Metal) music. Finally, I also used to work as a volunteer.
+    Hey! I am skilled developer living at Umeå, in the northen part of Sweden and I am currently learning Swedish. Back to September 2016, I came as an exchange student from France to study Computer Science at Umeå University. I have studied Artificial Intelligence, Distributed Systems and Parallel Computing. I like to code in C and Python but my skills are larger. During my spare time, I enjoy cooking vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to some (Metal) music. Finally, I also used to work as a volunteer.
   </p>
 
   <p>
