@@ -4,7 +4,7 @@ title: blasterbug.github.io
 #email: blasterbug@users.noreply.github.com
 description: Benjamin's corner on the web.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blasterbug.github.io" # the base hostname & protocol for your site
+url: "https://blasterbug.github.io" # the base hostname & protocol for your site
 
 github_username: blasterbug
 
