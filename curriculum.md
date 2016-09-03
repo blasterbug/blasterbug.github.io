@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2016/05/25 11:55:48
+date: 2016/09/03 21:56:48
 icon: "octicon-person"
 permalink: /curriculum/
 published: true
