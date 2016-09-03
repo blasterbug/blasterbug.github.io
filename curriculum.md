@@ -158,7 +158,7 @@ about: true
     <dt>June</dt>
     <dd>
       <span class="octicon octicon-octoface"></span>
-      Benjamin got registered on GitHub.
+      Benjamin registered on GitHub.
     </dd>
   </dl>
 
