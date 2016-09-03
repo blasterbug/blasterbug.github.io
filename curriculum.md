@@ -34,15 +34,11 @@ about: true
   <!--
     <span class="medium-octicon octicon-quote" ></span>
   -->
-    Hey! I am studying Computer Science at the Umeå University, Sweden as an exchange student. I am from France. I study Artificial Intelligence, Distributed Systems and Parallel Computing. I also take a Swedish course. Later, I would like to work with Real Time Systems. I like to code in C and Python. During my spare time, I cook vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to some extreme music. Finally, I also used to work as a volunteer.
+    Hey! I am skilled developer living at Umeå, in the northen part of Sweden and I am currently learning Swedish because I want to settle here. Back to September 2016, I came as an exchange student from France to study Computer Science at Umeå University. I have studied Artificial Intelligence, Distributed Systems and Parallel Computing. I like to code in C and Python but my skills are larger. During my spare time, I enjoy cooking vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to some (Metal) music. Finally, I also used to work as a volunteer.
   </p>
 
   <p>
     Back to summer 2015, I did a work placement for the third time within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, a French research lab. I worked on the demonstrator of the research project <a href="http://anr-impro.irccyn.ec-nantes.fr/#description" target="_blank" title="About ANR ImpRo" >ANR ImpRo</a>. I built up almost every prototypes of the demonstrator. The last one is made of metal parts and is driven by an Arduino board. The video further shows this prototype. The goal was to create robots able to track and shoot in a ball in order to play a air hockey like game.
-  </p>
-
-  <p>
-    Then I moved to Umeå, (north) Sweden, where I start my Master's degree as an exchange student. I learn a bit of Swedish, artificial intelligence, distributed systems and how a database management system works.
   </p>
 
   <h2 id="skills">Skills</h2>
