@@ -19,17 +19,16 @@
 
 */
 .octicon, .mega-octicon, .medium-octicon {
-  font: normal normal normal 16px/1 octicons;
-  width: 16px;
+  font: normal normal normal 16px/1 Octicons;
   display: inline-block;
   text-decoration: none;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  speak: none;
 }
 
 .mega-octicon {
