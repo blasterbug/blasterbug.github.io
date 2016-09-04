@@ -13,8 +13,7 @@
           {% if page.published %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">
               {% if page.icon %}
-                 <!-- <span class="medium-octicon {{ page.icon }}"></span> -->
-                 {% octicon { page.icon } %}
+                 <span class="medium-octicon {{ page.icon }}"></span>
               {% endif %}
               <span class="page-title">{{ page.title }}</span>
           </a>
