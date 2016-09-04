@@ -1,3 +1,4 @@
+$octicons-font-path: "./" !default;
 
 @font-face {
   font-family:"Octicons";
@@ -20,6 +21,8 @@
 */
 .octicon, .mega-octicon, .medium-octicon {
   font: normal normal normal 16px/1 Octicons;
+  vertical-align: text-top;
+  fill: currentColor;
   display: inline-block;
   text-decoration: none;
   text-rendering: auto;
@@ -384,4 +387,3 @@
 .octicon-x:before { content:"\f081"; }
 
 .octicon-zap:before { content:"\26a1"; }
-
