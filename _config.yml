@@ -16,7 +16,7 @@ gems:
   - jekyll-github-metadata
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-octicons
+  - jekyll-svg-plugin
 
 # Conversion
 markdown: kramdown
