@@ -28,7 +28,12 @@
       <div class="footer-col  footer-col-3">
         <ul class="info-list">
           <li>
-          Hosted by <a href="http://github.com/" target="_blank"><object class="octicon" data="/svg/logo-github.svg" type="image/svg+xml"></object></a>
+          Hosted by <a href="http://github.com/" target="_blank">
+            {% include {{ 'logo-github' | prepend: '/svg/' | append: '.svg' }} %}
+            <!--
+            <object class="octicon" data="/svg/logo-github.svg" type="image/svg+xml"></object>
+          -->
+          </a>
           </li>
           <li>
           Powered with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
