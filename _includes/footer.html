@@ -29,10 +29,9 @@
         <ul class="info-list">
           <li>
           Hosted by <a href="http://github.com/" target="_blank">
-            {% include {{ 'logo-github' | prepend: '/svg/' | append: '.svg' }} %}
-            <!--
-            <object class="octicon" data="/svg/logo-github.svg" type="image/svg+xml"></object>
-          -->
+            <span class="octicon">
+              {% svg svg/logo-github.svg %}
+            </span>
           </a>
           </li>
           <li>
