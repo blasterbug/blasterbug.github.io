@@ -10,5 +10,5 @@ group :jekyll_plugins do
   gem "jekyll-github-metadata"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
-  gem "jekyll-svg-plugin"
+  gem 'jekyll-octicons'
 end
