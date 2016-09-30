@@ -17,6 +17,7 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-svg-plugin
+  - kramdown
 
 # Conversion
 markdown: kramdown
