@@ -97,7 +97,7 @@ ul, ol, dl, figure {
 /**
  * Images
  */
-img {
+img:not(.octicon), img:not(.mega-octicon), img:not(.medium-octicon) {
   margin: auto;
   max-width: 100%;
   vertical-align: middle;
