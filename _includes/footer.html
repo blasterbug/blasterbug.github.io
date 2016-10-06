@@ -13,7 +13,7 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            <span class="octicon octicon-mark-github"></span>
+            {% octicon mark-github height:16 class:"right left" aria-label:hi %}
             <a href="https://github.com/{{ site.github_username }}">
               <span class="username">{{ site.github_username }}</span>
             </a>
@@ -29,7 +29,7 @@
         <ul class="info-list">
           <li>
           Hosted by <a href="http://github.com/" target="_blank">
-            {% octicon logo-github height:32 class:"right left" aria-label:hi %}
+            {% octicon logo-github height:16 class:"right left" aria-label:hi %}
           </a>
           </li>
           <li>

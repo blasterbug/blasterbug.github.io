@@ -17,6 +17,7 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-octicons
+  - jekyll-seo-tag
   - kramdown
 
 # Conversion
