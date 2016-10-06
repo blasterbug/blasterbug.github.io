@@ -12,7 +12,7 @@ about: true
 
   <ul class="cv-header-list" >
     <li><h3 id="name" >Benjamin Sientzoff</h3></li>
-    <li><span class="octicon octicon-location"></span> Umeå, Sweden</li>
+    <li><img class="octicon" src="/svg/location.svg" /> Umeå, Sweden</li>
   </ul>
 
   <ul id="menu"  class="cv-header-list" >
@@ -77,7 +77,7 @@ about: true
   <dl>
     <dt>October</dt>
     <dd>
-    <span class="octicon octicon-briefcase"></span>
+    <img class="octicon" src="/svg/briefcase.svg" />
     Internship at <a href="http://www.thingmap.com/" title="Thingamp - A simple way to ask around">Thingmap</a>
     </dd>
     <dt>May</dt>
@@ -86,7 +86,7 @@ about: true
     <a href="http://www.uminovainnovation.se/evenemang/umea-tech-arena-2016" >Umeå Tech Arena</a>.
     </dd>
     <dd>
-    <span class="octicon octicon-beaker"></span>
+    <img class="octicon" src="/svg/beaker.svg" />
     Django workshop at <a href="http://www.codemill.se/" >Codemill</a>.
     </dd>
   </dl>
@@ -94,21 +94,21 @@ about: true
   <dl>
     <dt>September</dt>
     <dd>
-      <span class="octicon octicon-book"></span>
+      <img class="octicon" src="/svg/book.svg" />
       Master's degree, first year in Computer Science at Umeå University as an exchange student.
     </dd>
     <dt>August</dt>
     <dd>
-      <span class="octicon octicon-location"></span>
+      <img class="octicon" src="/svg/location.svg" />
       Moved to Umeå, Sweden.
     </dd>
     <dd>
-      <span class="octicon octicon-mortar-board"></span>
+      <img class="octicon" src="/svg/mortar-board.svg" />
       Graduated from the University of Nantes in Computer Science.
     </dd>
     <dt>April - July</dt>
     <dd>
-      <span class="octicon octicon-beaker"></span>
+      <img class="octicon" src="/svg/beaker.svg" />
       Third internship within the Real Time Systems team of the <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> leaded by Richard Urunuela, still about the ANR ImpRo demonstrator. This time, my task was to build a new robot with metal parts.
     </dd>
   </dl>
@@ -119,13 +119,13 @@ about: true
   <dl>
     <dt>September</dt>
     <dd>
-      <span class="octicon octicon-jersey"></span>
+      <img class="octicon" src="/svg/jersey.svg" />
       Volunteering for the thirteenth edition of <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>, a festival about Digital art.
     </dd>
 
     <dt>June - July (12 weeks)</dt>
     <dd>
-      <span class="octicon octicon-beaker"></span>
+      <img class="octicon" src="/svg/beaker.svg" />
       Second internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> with the Real Time System team, leaded by Richard Urunuela. The purpose was adding a camera to the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on Wikipedia" >Lego Mindstorms NXT</a>.  The NXT is used to control the robots of the ANR ImpRo demonstrator.<br/> The camera is actually an <a href="http://arduino.cc/en/Mayn/ArduinoBoardUno" target="_blank" title="Arduino Uno" >Arduino Uno</a> board connected to a <a href="http://www.cmucam.org/projects/cmucam4/" >CMUcam4</a> and five proximity sensors. The Arduino board manages the CMU cam and the sensors and send the data to the NXT via I2C.
     </dd>
   </dl>
@@ -135,25 +135,25 @@ about: true
     <dt>September</dt>
 
     <dd>
-      <span class="octicon octicon-book"></span>
+      <img class="octicon" src="/svg/book.svg" />
       Start my bachelor degree in Computer Science at the University of Nantes, France.</dd>
     <dd>
-      <span class="octicon octicon-briefcase"></span>
+      <img class="octicon" src="/svg/briefcase.svg" />
       Start part-time working as a cashier at a mini-market.
     </dd>
     <dd>
-      <span class="octicon octicon-jersey"></span>
+      <img class="octicon" src="/svg/jersey.svg" />
       Volunteering for the twelfth edition of <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>, a festival about Digital art.
     </dd>
     <dt>July</dt>
     <dd>
-      <span class="octicon octicon-mortar-board"></span>
+      <img class="octicon" src="/svg/mortar-board.svg" />
       Got my two-years degree in Computer Science (DUT : Diplôme Universitaire de Technologie Informatique) from The University of Nantes, France.
     </dd>
 
     <dt>May - June (10 weeks)</dt>
     <dd>
-      <span class="octicon octicon-beaker"></span>
+      <img class="octicon" src="/svg/beaker.svg" />
       First internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, within the Real Time Systems team. I was leaded by Jean-Luc Béchennec, Sébastien Faucou and Richard Urunuela. During this internship, I designed a first prototype for the demonstrator of the ANR ImpRo project. The demonstrator is a table where two robots hit back and forth a ball. It is a kind of an air-hockey. Robots are built with Lego and controlled by the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on Wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampoline RTOS</a>, the operating system developed by the team, allows the robot to be autonomous with Real Time features. It runs on the NXT.
     </dd>
   </dl>
@@ -162,18 +162,19 @@ about: true
   <dl>
     <dt>June</dt>
     <dd>
-      <span class="octicon octicon-octoface"></span>
+      <img class="octicon" src="/svg/octoface.svg" />
       Benjamin registered on GitHub.
     </dd>
   </dl>
 
-  <div style="margin: auto; width: 32px; display:block;"><span class="mega-octicon octicon-ellipsis"></span></div>
+  <div style="margin: auto; width: 32px; display:block;"><img class="octicon" with="32px" src="/svg/ellipses.svg" /></div>
+
 
   <h3 id="cur-1992" >1992</h3>
   <dl>
     <dt>June</dt>
     <dd>
-      <span class="octicon octicon-package"></span>
+      <img class="octicon" src="/svg/package.svg" />
       Born after nine extra days <i>in utero</i>.
     </dd>
   </dl>
