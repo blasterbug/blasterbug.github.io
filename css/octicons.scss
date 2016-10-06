@@ -10,28 +10,27 @@ SVG octicons
 
 */
 
-.octicon, .mega-octicon, .medium-octicon {
-  vertical-align: text-top;
-  //fill: currentColor;
-  display: inline-block;
-  text-decoration: none;
-  text-rendering: auto;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  speak: none;
-}
+a > img {
 
-.mega-octicon {
-  font-size: 32px;
-  width: 36px;
-}
+  .octicon, .mega-octicon, .medium-octicon {
+    vertical-align: text-top;
+    //fill: currentColor;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: auto;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    speak: none;
+  }
 
-.medium-octicon {
-  font-size: 24px;
-  width: 24px;
-}
+  .mega-octicon {
+    font-size: 32px;
+    width: 36px;
+  }
 
-a > img:hover {
-  color: $brand-color;
+  .medium-octicon {
+    font-size: 24px;
+    width: 24px;
+  }
 }
