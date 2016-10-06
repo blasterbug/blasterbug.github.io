@@ -75,6 +75,11 @@ about: true
   <h2>Background</h2>
   <h3 id="cur-2016" >2016</h3>
   <dl>
+    <dt>October</dt>
+    <dd>
+    <span class="octicon octicon-briefcase"></span>
+    Internship at <a href="http://www.thingmap.com/" title="Thingamp - A simple way to ask around">Thingmap</a>
+    </dd>
     <dt>May</dt>
     <dd>
     <span class="octicon octicon-comment-discussion"></span>
