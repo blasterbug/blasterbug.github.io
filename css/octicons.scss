@@ -1,3 +1,6 @@
+---
+---
+@import "vars";
 /*
 
 .octicon is optimized for 16px.
@@ -27,4 +30,8 @@ SVG octicons
 .medium-octicon {
   font-size: 24px;
   width: 24px;
+}
+
+a > img:hover {
+  color: $brand-color;
 }
