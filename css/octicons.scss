@@ -10,11 +10,12 @@ SVG octicons
 
 */
 
-a > img {
+img {
 
   .octicon, .mega-octicon, .medium-octicon {
     vertical-align: text-top;
     fill: currentColor;
+    color: inherit;
     display: inline;
     text-decoration: none;
     text-rendering: auto;
