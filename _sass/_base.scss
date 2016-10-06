@@ -98,9 +98,11 @@ ul, ol, dl, figure {
  * Images
  */
 img {
-  margin: auto;
   max-width: 100%;
-  vertical-align: middle;
+  .centered {
+    margin: auto;
+    vertical-align: middle;
+  }
 }
 
 

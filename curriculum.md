@@ -113,7 +113,7 @@ about: true
     </dd>
   </dl>
 
-  <iframe width="480" height="360" src="https://www.youtube.com/img/91nHZ1eDwN4?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="480" height="360" src="https://www.youtube.com/embed/91nHZ1eDwN4?rel=0" frameborder="0" allowfullscreen></iframe>
 
   <h3 id="cur-2014" >2014</h3>
   <dl>
