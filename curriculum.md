@@ -113,7 +113,7 @@ about: true
     </dd>
   </dl>
 
-  <iframe width="480" height="360" src="https://www.youtube.com/embed/91nHZ1eDwN4?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="480" height="360" src="https://www.youtube.com/img/91nHZ1eDwN4?rel=0" frameborder="0" allowfullscreen></iframe>
 
   <h3 id="cur-2014" >2014</h3>
   <dl>
@@ -125,7 +125,7 @@ about: true
 
     <dt>June - July (12 weeks)</dt>
     <dd>
-      <img class="octicon" src="/svg/beaker.svg" />
+      <img class="octicon" src="/svg/beaker.svg">
       Second internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a> with the Real Time System team, leaded by Richard Urunuela. The purpose was adding a camera to the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on Wikipedia" >Lego Mindstorms NXT</a>.  The NXT is used to control the robots of the ANR ImpRo demonstrator.<br/> The camera is actually an <a href="http://arduino.cc/en/Mayn/ArduinoBoardUno" target="_blank" title="Arduino Uno" >Arduino Uno</a> board connected to a <a href="http://www.cmucam.org/projects/cmucam4/" >CMUcam4</a> and five proximity sensors. The Arduino board manages the CMU cam and the sensors and send the data to the NXT via I2C.
     </dd>
   </dl>
@@ -135,25 +135,25 @@ about: true
     <dt>September</dt>
 
     <dd>
-      <img class="octicon" src="/svg/book.svg" />
+      <img class="octicon" src="/svg/book.svg">
       Start my bachelor degree in Computer Science at the University of Nantes, France.</dd>
     <dd>
-      <img class="octicon" src="/svg/briefcase.svg" />
+      <img class="octicon" src="/svg/briefcase.svg">
       Start part-time working as a cashier at a mini-market.
     </dd>
     <dd>
-      <img class="octicon" src="/svg/jersey.svg" />
+      <img class="octicon" src="/svg/jersey.svg">
       Volunteering for the twelfth edition of <a href="http://www.scopitone.org/" target="_blank" title="Scoptione" >Scopitone</a>, a festival about Digital art.
     </dd>
     <dt>July</dt>
     <dd>
-      <img class="octicon" src="/svg/mortar-board.svg" />
+      <img class="octicon" src="/svg/mortar-board.svg">
       Got my two-years degree in Computer Science (DUT : Diplôme Universitaire de Technologie Informatique) from The University of Nantes, France.
     </dd>
 
     <dt>May - June (10 weeks)</dt>
     <dd>
-      <img class="octicon" src="/svg/beaker.svg" />
+      <img class="octicon" src="/svg/beaker.svg">
       First internship at <a href="http://www.irccyn.ec-nantes.fr/en/irccyn/presentation" target="_blank" title="Institut de Recherche en Communication et Cybernétique de Nantes" >IRCCyN</a>, within the Real Time Systems team. I was leaded by Jean-Luc Béchennec, Sébastien Faucou and Richard Urunuela. During this internship, I designed a first prototype for the demonstrator of the ANR ImpRo project. The demonstrator is a table where two robots hit back and forth a ball. It is a kind of an air-hockey. Robots are built with Lego and controlled by the <a href="https://en.wikipedia.org/wiki/Lego_Mindstorms_NXT" target="_blank" title="Lego Mindstorms NXT on Wikipedia" >Lego Mindstorms NXT</a>. <a href="http://trampoline.rts-software.org/" target="_blank" title="Trampoline - Open Source RTOS Project" >Trampoline RTOS</a>, the operating system developed by the team, allows the robot to be autonomous with Real Time features. It runs on the NXT.
     </dd>
   </dl>
@@ -162,12 +162,12 @@ about: true
   <dl>
     <dt>June</dt>
     <dd>
-      <img class="octicon" src="/svg/octoface.svg" />
+      <img class="octicon" src="/svg/octoface.svg">
       Benjamin registered on GitHub.
     </dd>
   </dl>
 
-  <div style="margin: auto; width: 32px; display:block;"><img class="octicon" with="32px" src="/svg/ellipses.svg" /></div>
+  <div style="margin: auto; width: 32px; display:block;"><img class="octicon" with="32px" src="/svg/ellipses.svg"></div>
 
 
   <h3 id="cur-1992" >1992</h3>
