@@ -8,19 +8,15 @@ SVG octicons
 */
 
 .octicon, .mega-octicon, .medium-octicon {
-  font: normal normal normal 16px/1 Octicons;
   vertical-align: text-top;
-  fill: currentColor;
+  //fill: currentColor;
   display: inline-block;
   text-decoration: none;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
   speak: none;
-  fill: currentColor;
 }
 
 .mega-octicon {
@@ -32,4 +28,3 @@ SVG octicons
   font-size: 24px;
   width: 24px;
 }
-
