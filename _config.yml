@@ -16,11 +16,10 @@ gems:
   - jekyll-github-metadata
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-octicons
+#  - jekyll-octicons
   - jekyll-seo-tag
   - kramdown
 
-# Conversion
 markdown: kramdown
 
 kramdown:
