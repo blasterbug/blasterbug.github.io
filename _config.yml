@@ -5,6 +5,14 @@ title: blasterbug.github.io
 description: Benjamin's corner on the web.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://blasterbug.github.io" # the base hostname & protocol for your site
+logo: /gist.ico
+social:
+  name: Benjamin Sientzoff
+  links:
+    - https://www.facebook.com/ben.sientzoff
+    - https://plus.google.com/+BenjaminSientzoff
+    - https://www.instagram.com/benbugs/
+    -
 
 github_username: blasterbug
 
