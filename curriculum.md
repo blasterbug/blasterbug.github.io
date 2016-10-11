@@ -61,7 +61,7 @@ about: true
 
     <dt>Web</dt>
     <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Markdown</dd>
-    <dd>Jekyll, Django</dd>
+    <dd>NodeJS, Jekyll, Django</dd>
 
     <dt>Writing</dt>
     <dd>LaTeX</dd>
