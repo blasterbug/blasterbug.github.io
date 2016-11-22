@@ -49,6 +49,7 @@ about: true
     <dt>Programming</dt>
     <dd>C, C++, Python, Java, Bash, OCaml, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
+    <dd>React, React-Native, AngularJS</dd>
 
     <dt>Specific skills</dt>
     <dd>Real Time Systems (programming with Trampoline RTOS)</dd>
@@ -60,7 +61,7 @@ about: true
     <dd>git, Doxygen, JUnit, Maven</dd>
 
     <dt>Web</dt>
-    <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Markdown</dd>
+    <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Markdown, MongoDB</dd>
     <dd>NodeJS, Jekyll, Django</dd>
 
     <dt>Writing</dt>
@@ -68,13 +69,15 @@ about: true
 
     <dt>Language</dt>
     <dd><b>French</b> Native language</dd>
-    <dd><b>English</b> Almost bilingual, I live aboard</dd>
-    <dd><b>Swedish</b> I can introduce myself and read simple text</dd>
+    <dd><b>English</b> Fluent, all job done English for few years. I use English every day</dd>
+    <dd><b>Swedish</b> I can introduce myself, read simple texts and have simple conversation</dd>
   </dl>
 
   <h2>Background</h2>
   <h3 id="cur-2016" >2016</h3>
   <dl>
+    <dt>November</dt>
+    <dd>Working full-time as a consultant at <a href="http://www.thingmap.com/" title="Thingamp - A simple way to ask around">Thingmap</a> as a fullstack developer.</dd>
     <dt>October</dt>
     <dd>
     <img class="octicon" src="/svg/briefcase.svg" />
