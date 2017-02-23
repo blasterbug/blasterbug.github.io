@@ -1,11 +1,3 @@
----
-title: "About"
-date: 2016/10/06 20:12:05
-icon: "person"
-permalink: /curriculum/
-published: true
-about: true
----
 <div id="cv-header">
 
   <img class="avatar" src="https://avatars0.githubusercontent.com/u/891025?s=320" alt="" title="" />
@@ -18,6 +10,7 @@ about: true
   <ul id="menu"  class="cv-header-list" >
     <li class="cv-list-item" ><a href="#aboutme">About</a></li>
     <li class="cv-list-item" ><a href="#skills">Skills</a></li>
+    <li class="cv-list-item" ><a href="#cur-2017" title="Freelance" >2017</a></li>
     <li class="cv-list-item" ><a href="#cur-2016" title="" >2016</a></li>
     <li class="cv-list-item" ><a href="#cur-2015" title="Sweden!" >2015</a></li>
     <li class="cv-list-item" ><a href="#cur-2014" title="" >2014</a></li>
@@ -34,7 +27,7 @@ about: true
   <!--
     <span class="medium-octicon octicon-quote" ></span>
   -->
-    Hey! I am a skilled developer living at Umeå, in the northen part of Sweden. I am currently learning Swedish while I am doing an internship at <a href="http://www.thingmap.com/" target="_blank" title="Thingmap - A simple way to ask around" >Thingmap</a>. Back to September 2016, I came as an exchange student from France to study Computer Science at Umeå University. I have studied Artificial Intelligence, Distributed Systems and Parallel Computing. I like to code in C and Python but my skills are larger. During my spare time, I enjoy cooking vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to some (Metal) music. Finally, I also used to work as a volunteer.
+    Hey! I am a skilled developer living at Umeå, in the northen part of Sweden. I am currently learning Swedish while I am working as a freelance developer. Back to September 2016, I came as an exchange student from France to study Computer Science at Umeå University. I have studied Artificial Intelligence, Distributed Systems and Parallel Computing. I like to code in C and Python but my skills are larger. During my spare time, I enjoy cooking vegetarian dishes, build funny stuff with my Arduino Uno while I am listening to some (Metal) music. I also used to work as a volunteer.
   </p>
 
   <p>
@@ -47,7 +40,7 @@ about: true
     <dd>UML, Merise, Petri nets, Design Patterns</dd>
 
     <dt>Programming</dt>
-    <dd>C, C++, Python, Java, Bash, OCaml, Assembly language, ADA95</dd>
+    <dd>C, C++, Python, Javascript, Java, Bash, OCaml, Assembly language, ADA95</dd>
     <dd>Arduino, Processing</dd>
 
     <dt>Specific skills</dt>
@@ -61,6 +54,7 @@ about: true
 
     <dt>Web</dt>
     <dd>(X)HTML, CSS, JavaScript, PHP, SQL, PL/SQL, Markdown</dd>
+    <dd>Nodejs, React.js, Angular.js</dd>
     <dd>Jekyll, Django</dd>
 
     <dt>Writing</dt>
@@ -68,17 +62,23 @@ about: true
 
     <dt>Language</dt>
     <dd><b>French</b> Native language</dd>
-    <dd><b>English</b> Almost bilingual, I live aboard</dd>
-    <dd><b>Swedish</b> I can introduce myself and read simple text</dd>
+    <dd><b>English</b> Bilingual, I live aboard</dd>
+    <dd><b>Swedish</b> I can introduce myself and read simple text, I am still learning</dd>
   </dl>
 
   <h2>Background</h2>
+  <h3 id="cur-2017" >2017</h3>
+  <dl>
+    <dd>The year has just begun!</dd>
+  </dl>
   <h3 id="cur-2016" >2016</h3>
   <dl>
+    <dt>November</dt>
+    <dd>Start working as a freelance developer (fullstack) at Thingmap.</dd>
     <dt>October</dt>
     <dd>
     <img class="octicon" src="/svg/briefcase.svg" />
-    Internship at <a href="http://www.thingmap.com/" title="Thingamp - A simple way to ask around">Thingmap</a>
+    Internship at <a href="http://www.thingmap.com/" title="Thingamp - A simple way to ask around">Thingmap</a>.
     </dd>
     <dt>May</dt>
     <dd>
