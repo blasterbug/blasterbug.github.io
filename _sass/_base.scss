@@ -148,16 +148,17 @@ section {
 
 footer {
   bottom: 1em;
-  height: 45px;
+  height: 50px;
   left: 1em;
   margin: 0;
   padding: 1em;
   position: fixed;
-  width: 250px;
+  width: 350px;
 
   p {
     margin: 0;
     padding: 0;
+    text-align: left;
     text-indent: 0;
   }
 }
@@ -165,7 +166,6 @@ footer {
 .cv-header {
   display: table;
   margin: 0 auto;
-  min-width: 475px;
   padding: 1em;
   width: 90%;
 }
