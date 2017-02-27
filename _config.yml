@@ -13,8 +13,11 @@ encoding: "utf-8"
 timezone: Europe/Paris
 # Plugins
 gems:
+  - github-pages
   - jekyll-github-metadata
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-octicons
   - kramdown
 
 markdown: kramdown
