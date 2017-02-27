@@ -1,6 +1,12 @@
 title: blasterbug.github.io
 description: Benjamin's corner on the web.
 github_username: blasterbug
+social:
+  name: Benjamin Sientzoff
+  links:
+    - https://www.linkedin.com/in/benjaminsientzoff
+    - https://github.com/blasterbug
+    - http://stackoverflow.com/cv/blasterbug
 # Handling Reading
 encoding: "utf-8"
 # Configuration settings
