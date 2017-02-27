@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin-ext");
+html, body { background-color: #F4F4F4; color: #212121; font-family: 'Inconsolata', monospace; font-size: 16px; height: 100%; margin: 0; min-height: 250px; padding: 0; width: 100%; }
+
+* { box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 { color: #01579B; letter-spacing: .02em; margin: 0; }
+
+h1 { font-size: 35.2px; }
+
+h2 { font-size: 32px; }
+
+h3 { font-size: 28.8px; }
+
+h4 { font-size: 25.6px; }
+
+h5 { font-size: 22.4px; }
+
+h6 { font-size: 19.2px; }
+
+p { color: #212121; text-align: justify; text-indent: 1em; }
+
+pre { padding: 1em; }
+
+a, a:link, a:visited { color: #FB8C00; text-decoration: none; }
+a:active, a:focus, a:hover { text-decoration: underline; }
+
+.octicon { display: inline-block; fill: currentColor; vertical-align: text-top; }
+
+.alternate-color { color: #545454; }
+
+.brand-logo { height: 32px; width: 32px; }
+
+.wrapper { padding: 0; position: relative; }
+
+header { margin: 0; }
+
+nav { left: 1em; padding: 1em; position: fixed; top: 2em; width: 250px; }
+nav ul { list-style: none; margin: 0; padding: 0; }
+nav li { margin: 0; padding: 0; }
+@media only screen and (max-width: 800px) { nav { display: none; padding: 0; position: relative; width: 98%; } }
+
+section { height: 100%; line-height: 1.2; margin: 0 auto; max-width: 800px; min-width: 480px; padding: 0 0 0 245px; width: 80%; }
+@media only screen and (max-width: 800px) { section { display: inline; margin: 0; max-width: 100%; min-width: 480px; padding: 1em; position: relative; } }
+
+footer { bottom: 1em; height: 50px; left: 1em; margin: 0; padding: 1em; position: fixed; width: 350px; }
+footer p { margin: 0; padding: 0; text-align: left; text-indent: 0; }
+
+.cv-header { display: table; margin: 0 auto; padding: 1em; width: 90%; }
+
+.cv-avatar { border-radius: 5px; display: table-cell; height: 200px; margin: 0; padding: 0; width: 200px; }
+
+.cv-header-info { display: table-cell; padding: 0 0 0 1em; vertical-align: middle; }
+.cv-header-info li { list-style: none; }
+
+@media only screen and (max-width: 800px) { body > *:not(script) { display: block; margin: 0; padding: 1em; position: relative; }
+  nav { display: node; }
+  footer { display: inline-block; height: auto; padding: 1em 0; position: relative; }
+  .wrapper { padding: 1em; } }
+@media print { body > * { display: block; position: relative; }
+  header, footer, nav, iframe { display: none; }
+  section { margin: 0; padding: 0; width: 100%; } }
