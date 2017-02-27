@@ -1,0 +1,114 @@
+html,
+body {
+  background-color: $background-color;
+  color: $text-color;
+  display: grid;
+  font-family: 'Inconsolata', monospace;
+  font-size: $text-size;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  margin: 0;
+  padding: 1em;
+}
+
+
+nav {
+  align-self: start;
+  grid-column: 1;
+  grid-row: 2;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+section {
+  grid-column: 2;
+  grid-row: 2 / span 3;
+  justify-self: center;
+  line-height: 1.2;
+  margin: 0 auto;
+  max-width: $section-width;
+  padding: 1em;
+}
+
+footer {
+  grid-column: 1;
+  grid-row: 3;
+  margin: 0 auto;
+  padding: 1em;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $title-color;
+}
+
+h1 {
+  font-size: ($text-size + 10px);
+}
+
+h2 {
+  font-size: ($text-size + 8px);
+}
+
+h3 {
+  font-size: ($text-size + 6);
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  color: $text-color;
+  text-align: justify;
+  text-indent: 1em;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  &,
+  &:link,
+  &:visited {
+    color: $higlight-color;
+    text-decoration: none;
+  }
+
+  &:active,
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+  }
+}
