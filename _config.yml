@@ -1,0 +1,20 @@
+title: blasterbug.github.io
+description: Benjamin's corner on the web.
+github_username: blasterbug
+# Handling Reading
+encoding: "utf-8"
+# Configuration settings
+timezone: Europe/Paris
+# Plugins
+gems:
+  - jekyll-github-metadata
+  - jekyll-sitemap
+  - kramdown
+
+markdown: kramdown
+
+defaults:
+  -
+    values:
+      author: "Benjamin Sientzoff"
+      layout: default
