@@ -2,28 +2,58 @@
 layout: default
 ---
 <nav>
-    <ul id="menu"  class="cv-header-list" >
-      <li class="cv-list-item" ><a href="#aboutme">About</a></li>
-      <li class="cv-list-item" ><a href="#skills">Skills</a></li>
-      <li class="cv-list-item" ><a href="#cur-2017" title="Freelance" >2017</a></li>
-      <li class="cv-list-item" ><a href="#cur-2016" title="" >2016</a></li>
-      <li class="cv-list-item" ><a href="#cur-2015" title="Sweden!" >2015</a></li>
-      <li class="cv-list-item" ><a href="#cur-2014" title="" >2014</a></li>
-      <li class="cv-list-item" ><a href="#cur-2013" title="" >2013</a></li>
-      <li class="cv-list-item" ><a href="#cur-2011" title="" >2011</a></li>
-      <li class="cv-list-item" ><a href="#cur-1992" title="" >1992</a></li>
+    <ul id="menu"  class="cv-list" >
+      <li>
+        <a href="#aboutme">About</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#cur-2017" title="Freelance" >2017</a>
+      </li>
+      <li>
+        <a href="#cur-2016" title="" >2016</a>
+      </li>
+      <li>
+        <a href="#cur-2015" title="Sweden!" >2015</a>
+      </li>
+      <li>
+        <a href="#cur-2014" title="" >2014</a>
+      </li>
+      <li>
+        <a href="#cur-2013" title="" >2013</a>
+      </li>
+      <li>
+        <a href="#cur-2011" title="" >2011</a>
+      </li>
+      <li>
+        <a href="#cur-1992" title="" >1992</a>
+      </li>
     </ul>
 </nav>
+
 <section>
 
-  <div id="aboutme">
-    <img class="avatar" src="https://avatars0.githubusercontent.com/u/891025?s=320" alt="" title="" />
-
-    <ul class="cv-header-list" >
-      <li><h3 id="name" >Benjamin Sientzoff</h3></li>
-      <li>{% octicon location %} Umeå, Sweden</li>
+  <div class="cv-header" id="aboutme" >
+    <img class="cv-avatar"
+     src="https://avatars0.githubusercontent.com/u/891025?s=320"
+     alt=""
+     title="" />
+    <ul class="cv-header-info" >
+      <li>
+        <h2>Benjamin Sientzoff</h2>
+      </li>
+      <li>
+        <h4 class="alternate-color">Freelance developer</h4>
+      </li>
+      <li>
+        {% octicon location %} Umeå, Sweden
+      </li>
     </ul>
+  </div>
 
+  <div class="intro">
     <p>
       <!--
       <span class="medium-octicon octicon-quote" ></span>
@@ -117,7 +147,13 @@ layout: default
       </dd>
     </dl>
 
-    <iframe width="480" height="360" src="https://www.youtube.com/embed/91nHZ1eDwN4?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe
+      width="480"
+      height="360"
+      src="https://www.youtube.com/embed/91nHZ1eDwN4?rel=0"
+      frameborder="0"
+      allowfullscreen >
+    </iframe>
 
     <h3 id="cur-2014" >2014</h3>
     <dl>
