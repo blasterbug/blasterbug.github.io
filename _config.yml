@@ -14,10 +14,11 @@ timezone: Europe/Paris
 # Plugins
 gems:
   - github-pages
+  - jekyll
   - jekyll-github-metadata
-  - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-octicons
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - kramdown
 
 markdown: kramdown
