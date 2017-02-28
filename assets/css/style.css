@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata|Lora&subset=latin-ext");
-html, body { background-color: #F4F4F4; color: #212121; font-family: "Lora", serif; font-size: 16px; height: 100%; margin: 0; min-height: 250px; padding: 0; width: 100%; }
+html, body { background-color: #ffffff; color: #212121; font-family: "Lora", serif; font-size: 16px; height: 100%; margin: 0; min-height: 250px; padding: 0; width: 100%; }
 
 * { box-sizing: border-box; }
 
-h1, h2, h3, h4, h5, h6 { color: #01579B; font-family: "Inconsolata", monospace; }
+h1, h2, h3, h4, h5, h6 { color: #2a3990; font-family: "Inconsolata", monospace; }
 
 h1 { font-size: 35.2px; }
 
@@ -21,7 +21,7 @@ dt, code, pre { font-family: "Inconsolata", monospace; }
 
 pre:not(:first-child), dt:not(:first-child) { padding-top: 1em; }
 
-a, a:link, a:visited { color: #FB8C00; text-decoration: none; }
+a, a:link, a:visited { color: #26a69a; text-decoration: none; }
 a:active, a:focus, a:hover { text-decoration: underline; }
 
 .octicon { display: inline-block; fill: currentColor; vertical-align: text-top; }
