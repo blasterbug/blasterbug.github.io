@@ -61,7 +61,7 @@ footer p { margin: 0; padding: 0; text-align: left; text-indent: 0; }
   .cv-header-info { margin: 0 auto; }
   .cv-header-info h2 { font-size: 24px; }
   .cv-header-info h4 { font-size: 19.2px; }
-  .cv-avatar { height: 150px; margin: 0; width: 150px; } }
+  .cv-avatar { height: 150px; width: 150px; } }
 @media only screen and (max-width: 500px) { body > *:not(script) { display: block; margin: 0; padding: 1em; position: relative; }
   nav { display: node; }
   footer { display: inline-block; height: auto; padding: 1em 0; position: relative; }
@@ -73,4 +73,7 @@ footer p { margin: 0; padding: 0; text-align: left; text-indent: 0; }
   .cv-header-info h4 { font-size: 19.2px; } }
 @media print { body > * { display: block; position: relative; }
   header, footer, nav, iframe { display: none; }
-  section { margin: 0; padding: 0; width: 100%; } }
+  section { margin: 0 auto; padding: 0; width: 80%; }
+  section .cv-header-info { margin: 0 auto; padding: 1em; }
+  section .cv-header-info h2 { font-size: 25.6px; }
+  section .cv-header-info h4 { font-size: 22.4px; } }
