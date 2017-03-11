@@ -22,9 +22,15 @@ dt, code, pre { font-family: "Inconsolata", monospace; }
 pre:not(:first-child), dt:not(:first-child) { padding-top: 1em; }
 
 a, a:link, a:visited { color: #26a69a; text-decoration: none; }
+a .octicon, a:link .octicon, a:visited .octicon { color: #212121; }
 a:active, a:focus, a:hover { text-decoration: underline; }
+a:active .octicon, a:focus .octicon, a:hover .octicon { color: #26a69a; text-decoration: none; }
 
-.octicon { display: inline-block; fill: currentColor; vertical-align: text-top; }
+.octicon { display: inline-block; fill: currentColor; margin: 0; padding: 0; vertical-align: text-top; }
+
+.icon-14 { font-size: 14px; height: 14px; margin: 0 auto; }
+
+.icon-32 { font-size: 32px; height: 32px; width: 32px; }
 
 .alternate-color { color: #545454; }
 
@@ -41,6 +47,7 @@ nav li { margin: 0; padding: 0; }
 
 section { height: 100%; line-height: 1.2; margin: 0 auto; max-width: 800px; min-width: 480px; padding: 0 0 0 200px; width: 80%; }
 section dd, section p { color: #3b3b3b; text-align: justify; text-indent: 1em; }
+section iframe { display: block; margin: 0 auto; }
 @media only screen and (max-width: 800px) { section { display: inline; margin: 0; max-width: 100%; min-width: 480px; padding: 1em; position: relative; } }
 
 footer { bottom: 1em; font-family: "Inconsolata", monospace; height: 50px; left: 1em; margin: 0; padding: 1em; position: fixed; width: 350px; }
@@ -52,7 +59,7 @@ footer p { margin: 0; padding: 0; text-align: left; text-indent: 0; }
 .cv-avatar { border-radius: 2px; display: table-cell; height: 200px; line-height: 0; margin: 0; padding: 0; width: 200px; }
 
 .cv-header-info { display: table-cell; padding: 0 0 0 1em; vertical-align: middle; }
-.cv-header-info li { list-style: none; }
+.cv-header-info li { list-style: none; margin: 0; padding: 0; }
 
 @media only screen and (max-width: 800px) { body > *:not(script) { display: block; margin: 0; padding: 1em; position: relative; }
   nav { display: node; }
