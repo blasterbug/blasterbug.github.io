@@ -48,7 +48,8 @@ nav li a, nav li a:link, nav li a:visited { color: #d6e8f9; text-decoration: non
 nav li a:active, nav li a:focus, nav li a:hover { text-decoration: underline; }
 
 section { height: 100%; line-height: 1.2; margin: 0 auto; max-width: 600px; padding: 0; width: 100%; }
-section dd, section p { color: #3f3f42; text-align: justify; text-indent: 1em; }
+section dt { margin: 0; padding: 1em 0; }
+section dd, section p { color: #3f3f42; margin: 0; padding: 0; text-align: justify; text-indent: 1em; }
 section iframe { display: block; margin: 0 auto; }
 
 .footer-wrapper { background: #0038ff; color: #d6e8f9; font-family: "Quicksand", sans-serif; margin: 0; padding: 0; width: 100%; }
@@ -86,11 +87,12 @@ section iframe { display: block; margin: 0 auto; }
   .cv-header { margin: 0 auto; width: 500px; }
   .cv-info h2 { font-size: 22.4px; }
   .cv-info h4 { font-size: 19.2px; }
-  .cv-avatar { margin: 0 auto; width: 150px; }
-  .cv-avatar img { height: 150px; width: 150px; }
+  .cv-avatar { margin: 0 auto; width: 200px; }
+  .cv-avatar img { height: 200px; width: 200px; }
   .cv-extra { display: none; } }
 @media only screen and (max-width: 450px) { body > *:not(script) { display: block; margin: 0; padding: 0; position: relative; }
   nav, .iframe-wrapper { display: none; }
+  dd { margin: 0; padding-left: 10px; }
   .wrapper { width: auto; }
   section { padding: 2%; width: 100%; }
   .footer-wrapper { padding: 1em; width: 100%; }
@@ -99,8 +101,7 @@ section iframe { display: block; margin: 0 auto; }
   .footer-wrapper footer li { display: table-row; }
   .cv-header { margin: 0 auto; width: auto; }
   .cv-header:last(child) { margin-top: 1em; }
-  .cv-header .cv-avatar { display: table-row; margin: 0 auto; width: 150px; }
-  .cv-header .cv-avatar img { border-radius: 2px; height: 150px; width: 150px; }
+  .cv-header .cv-avatar { display: table-row; }
   .cv-header .cv-info { display: table-row; margin: 0 auto; padding: 0; width: 250px; }
   .cv-header .cv-info h2 { font-size: 22.4px; }
   .cv-header .cv-info h4 { font-size: 19.2px; } }
