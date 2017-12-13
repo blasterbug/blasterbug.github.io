@@ -25,17 +25,17 @@ a, a:link, a:visited { color: #0038ff; text-decoration: underline; }
 a:active, a:focus, a:hover { color: #d6e8f9; }
 a:active .octicon, a:focus .octicon, a:hover .octicon { color: #0038ff; text-decoration: none; }
 
-.octicon { display: inline-flex; fill: currentColor; margin: auto; padding: 0; vertical-align: text-top; }
+.octicon { align-content: center; align-items: center; align-self: center; display: inline-flex; fill: currentColor; margin: auto; padding: 0; }
 
 .faces { fill: #0038ff; margin: auto; padding: 0; }
 
 .size-64 { font-size: 64px; height: 64px; width: 64px; }
 
-.size-128 { font-size: 128px; height: 128px; margin: auto; padding: 0; width: 128px; }
+.size-128 { font-size: 128px; height: 128px; width: 128px; }
 
 .brand-logo { height: 32px; width: 32px; }
 
-.faces-180 { height: 180px; margin: auto; padding: 0; width: 180px; }
+.faces-180 { height: 180px; width: 180px; }
 
 .wrapper { margin: 0; padding: 0; position: relative; }
 
@@ -73,10 +73,14 @@ section iframe { display: block; margin: 0 auto; }
 .cv-info h1, .cv-info h4 { flex-shrink: 0; margin: 0; width: 100%; }
 
 .cv-extra { color: #0038ff; display: table; fill: #0038ff; left: 3%; margin-top: 1em; overflow: auto; position: fixed; top: 5em; }
-.cv-extra ul { list-style: none; margin: 1em 0; padding: 0; }
-.cv-extra li { height: 2em; }
-.cv-extra a { text-decoration: none; }
-.cv-extra .brand-logo, .cv-extra .cv-pdf { display: table-row; text-align: center; }
+.cv-extra ul { align-content: center; align-items: center; display: flex; flex-direction: column; flex-flow: column; justify-content: center; list-style: none; margin: 1em 0; padding: 0; }
+.cv-extra li { align-content: center; align-items: center; align-self: flex-start; display: inline-flex; flex-grow: 1; margin: 3px 0; }
+.cv-extra a { align-content: center; align-items: center; align-self: flex-start; display: inline-flex; flex-grow: 1; margin: 3px 0; text-decoration: none; }
+.cv-extra a:active, .cv-extra a:focus, .cv-extra a:hover { color: #d6e8f9; }
+.cv-extra a:active .octicon, .cv-extra a:focus .octicon, .cv-extra a:hover .octicon { fill: #d6e8f9; }
+.cv-extra svg, .cv-extra span { margin: auto; text-decoration: none; }
+.cv-extra svg { width: 16px; }
+.cv-extra span { padding: 0 3px; }
 
 @media only screen and (max-width: 1200px) { body > *:not(script) { margin: 0; padding: 0; position: relative; width: 100%; }
   section { display: block; margin: 0 auto; width: 95%; }
