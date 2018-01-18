@@ -72,12 +72,12 @@ section iframe { display: block; margin: 0 auto; }
 .cv-info li { align-self: flex-start; line-height: 1.5em; list-style: none; margin: auto; width: 100%; }
 .cv-info h1, .cv-info h4 { flex-shrink: 0; margin: 0; padding: 3px 0; width: 100%; }
 
-.cv-extra-info { align-content: space-between; align-items: center; color: #0038ff; display: inline-flex; fill: #0038ff; flex-direction: row; flex-flow: row; flex-grow: 1; flex-wrap: wrap; justify-content: space-between; list-style: none; margin: auto; max-width: 560px; padding: 12px; width: 100%; }
-.cv-extra-info > a, .cv-extra-info > span { align-content: space-between; align-items: center; align-self: center; display: flex; flex-direction: column; flex-flow: column; flex-grow: 0; flex-wrap: nowrap; height: 40px; justify-content: space-between; margin: auto; padding: 0; text-decoration: none; }
+.cv-extra-info { align-content: space-between; align-items: center; color: #0038ff; display: inline-flex; fill: #0038ff; flex-direction: row; flex-flow: row; flex-grow: 1; flex-shrink: 0; flex-wrap: wrap; justify-content: space-between; height: 80px; list-style: none; margin: auto; max-width: 560px; padding: 12px; width: 100%; }
+.cv-extra-info > a, .cv-extra-info > span { align-content: space-between; align-items: center; align-self: center; display: flex; flex-direction: column; flex-flow: column; flex-wrap: nowrap; height: 100%; justify-content: space-between; margin: auto; text-decoration: none; }
 .cv-extra-info a:active, .cv-extra-info a:focus, .cv-extra-info a:hover { color: #d6e8f9; }
 .cv-extra-info a:active .octicon, .cv-extra-info a:focus .octicon, .cv-extra-info a:hover .octicon { fill: #d6e8f9; }
 .cv-extra-info svg, .cv-extra-info span { margin: auto; text-decoration: none; }
-.cv-extra-info .octicon { fill: currentColor; height: 22px; width: 22px; }
+.cv-extra-info .octicon { flex-shrink: 0; fill: currentColor; height: 22px; width: 22px; }
 .cv-extra-info span { padding: 0 3px; }
 
 @media only screen and (max-width: 1200px) { body > *:not(script) { margin: 0; padding: 0; position: relative; width: 100%; }
