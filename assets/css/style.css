@@ -47,6 +47,8 @@ nav > a:active, nav > a:focus, nav > a:hover { border-color: #d6e8f9; text-decor
 nav > a + a { margin-left: 12px; }
 
 section { height: 100%; line-height: 1.5em; margin: 0 auto; max-width: 600px; padding: 0; width: 100%; }
+section > div:first-of-type { margin-top: 100px; }
+section > div + div { margin-top: 24px; }
 section dl a, section dl a:link, section dl a:visited, section p a, section p a:link, section p a:visited, section li a, section li a:link, section li a:visited { box-shadow: 0 -1px 0 #0038ff inset; color: #0038ff; text-decoration: none; }
 section dl a:active, section dl a:focus, section dl a:hover, section p a:active, section p a:focus, section p a:hover, section li a:active, section li a:focus, section li a:hover { box-shadow: 0 -1px 0 #d6e8f9 inset; }
 section dl a:active .octicon, section dl a:focus .octicon, section dl a:hover .octicon, section p a:active .octicon, section p a:focus .octicon, section p a:hover .octicon, section li a:active .octicon, section li a:focus .octicon, section li a:hover .octicon { color: #d6e8f9; text-decoration: none; }
