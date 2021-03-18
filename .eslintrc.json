@@ -1,0 +1,67 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "prettier/react"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier",
+        "markdown"
+    ],
+    "rules": {
+      "no-console": "off",
+      "react/jsx-filename-extension": [
+        "error",
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ],
+      "quotes": [
+        "error",
+        "single",
+        {
+          "allowTemplateLiterals": true
+        }
+      ],
+      // allow bracket notation with snake_case properties
+      "camelcase": "warn",
+      "dot-notation": [
+        "error",
+        {
+          "allowPattern": "^[a-z]+(_[a-z]+)+$"
+        }
+      ]
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "overrides": [
+      {
+        // 2. Enable the Markdown processor for all .md files.
+        "files": [
+          "**/*.md"
+        ],
+        "processor": "markdown/markdown"
+      }
+    ]
+}
