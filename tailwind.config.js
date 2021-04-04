@@ -10,7 +10,7 @@ module.exports = {
         mono: ['Hack', ...defaultTheme.fontFamily.mono],
       },
       colors: {
-        'deep-grey': '#3f3f42',
+        'deep-gray': '#3f3f42',
         'digital-blue': '#0038ff',
         'light-blue': '#d6e8f9',
       },
@@ -24,5 +24,8 @@ module.exports = {
       // borderColor: ['active'],
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/typography'),
+  ],
 };
