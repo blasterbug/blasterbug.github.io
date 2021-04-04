@@ -1,7 +1,7 @@
 [blasterbug.github.io](http://blasterbug.github.io/ "blasterbug's gh page")
 ====================
 
-Copyright 2018 Benjamin Sientzoff
+Copyright 2021 Benjamin Sientzoff
 
 
 ## Usage
@@ -10,16 +10,14 @@ Copyright 2018 Benjamin Sientzoff
 ### Install
 
 ```bash
-  $ gem install bundler jekyll
-  $ bundle install
-  $ bundle exec jekyll serve
+  $ yarn install
 ```
 
 
 ### Dev mode
 
 ```bash
-  $ bundle exec jekyll serve
+  $ yarn start
 ```
 Now browse to [localhost:4000](http://localhost:4000).
 
@@ -27,5 +25,5 @@ Now browse to [localhost:4000](http://localhost:4000).
 ### Build
 
 ```bash
-  $ bundle exec jekyll build
+  $ yarn build
 ```
