@@ -1,13 +1,63 @@
 {
   "presets": [
-    "@babel/preset-env",
-    "@babel/preset-react",
-    "@babel/preset-typescript"
+    [
+      "airbnb",
+      {
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "syntax-dynamic-import",
+    "inline-react-svg",
+    "macros"
   ],
   "env": {
+    "test": {
+      "plugins": [
+        "dynamic-import-node",
+        [
+          "transform-replace-object-assign",
+          {
+            "moduleSpecifier": "object.assign"
+          }
+        ]
+      ]
+    },
     "development": {
       "plugins": [
+        [
+          "transform-replace-object-assign",
+          {
+            "moduleSpecifier": "object.assign"
+          }
+        ],
         "react-refresh/babel"
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "airbnb",
+          {
+            "additionalTargets": {
+              "ie": 8
+            },
+            "development": false,
+            "removePropTypes": true,
+            "useBuiltIns": "usage"
+          }
+        ]
+      ],
+      "plugins": [
+        "transform-async-generator-functions",
+        [
+          "transform-replace-object-assign",
+          {
+            "moduleSpecifier": "object.assign"
+          }
+        ]
       ]
     }
   }
