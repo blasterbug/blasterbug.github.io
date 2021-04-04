@@ -6,19 +6,17 @@
     "src"
   ],
   "verbose": true,
-  "exec": "webpack serve --mode development",
+  "exec": "webpack serve",
   "watch": [
     ".env",
-    "index.html",
-    "babel.config.json",
+    "babel.config.js",
     "postcss.config.js",
     "tailwind.config.js",
-    "tsconfig.json",
     "webpack.config.js"
   ],
   "env": {
     "NODE_ENV": "development",
     "BABEL_ENV": "development"
   },
-  "ext": "js,jsx,json,ts,tsx"
+  "ext": "js,json"
 }
