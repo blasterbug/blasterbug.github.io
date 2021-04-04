@@ -62,7 +62,7 @@
     "compression": 5,
     "scalingAlgorithm": "Spline",
     "errorOnImageTooSmall": false,
-    "readmeFile": true,
+    "readmeFile": false,
     "htmlCodeFile": true,
     "usePathAsIs": false
   }
