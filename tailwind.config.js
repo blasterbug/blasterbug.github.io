@@ -1,17 +1,28 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: ['./index.html', './src/**/*.ts', './src/**/*.tsx'],
+  purge: ['./public/index.html', './src/**/*.js', './src/**/*.jsx'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        // sans: ['Hack', ...defaultTheme.fontFamily.sans],
+        mono: ['Hack', ...defaultTheme.fontFamily.mono],
+      },
+      colors: {
+        'deep-grey': '#3f3f42',
+        'digital-blue': '#0038ff',
+        'light-blue': '#d6e8f9',
+      },
+      borderColor: {
+        accent: '#1181e2',
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      // borderColor: ['active'],
+    },
   },
   plugins: [require('@tailwindcss/typography')],
-}
+};
