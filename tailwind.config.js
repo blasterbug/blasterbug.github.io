@@ -14,9 +14,19 @@ module.exports = {
         'digital-blue': '#0038ff',
         'light-blue': '#d6e8f9',
       },
-      borderColor: {
-        accent: '#1181e2',
-      },
+      typography: (theme) => ({
+        blue: {
+          css: {
+            color: theme('colors.deep-gray'),
+            a: {
+              color: theme('colors.digital-blue'),
+              '&:hover': {
+                color: theme('colors.light-blue'),
+              },
+            },
+          },
+        },
+      }),
     },
   },
   variants: {
