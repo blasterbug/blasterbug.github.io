@@ -7,11 +7,27 @@ function Background() {
         id="background"
         className="relative h-full text-lg max-w-prose mx-auto"
       >
-        <div className="mt-6 px-4 prose prose-blue prose-lg text-gray-500 mx-auto">
-          <h2>Background</h2>
-          <h3 id="cur-2018">2018</h3>
+        <div className="mt-6 px-4 prose prose-blue prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-500 mx-auto">
+          <h1 className="font-display">Background</h1>
+          <h2 className="font-display" id="cur-2021">
+            2021
+          </h2>
+          <h3 className="font-display">February</h3>
           <ul>
-            <h4>May</h4>
+            <li>Start as lead full stack developer at Papperlöst AB.</li>
+          </ul>
+          <h2 className="font-display" id="cur-2020">
+            2020
+          </h2>
+          <h3 className="font-display">December</h3>
+          <ul>
+            <li>Nesta files for bankruptcy.</li>
+          </ul>
+          <h2 className="font-display" id="cur-2018">
+            2018
+          </h2>
+          <h3 className="font-display">May</h3>
+          <ul>
             <li>
               Nesta speeched as one of the three most promising start-ups
               at&nbsp;
@@ -37,9 +53,11 @@ function Background() {
               , Stockholm.
             </li>
           </ul>
-          <h3 id="cur-2017">2017</h3>
+          <h2 className="font-display" id="cur-2017">
+            2017
+          </h2>
+          <h3 className="font-display">October</h3>
           <ul>
-            <h4>October</h4>
             <li>
               Nesta is selected for&nbsp;
               <a
@@ -53,7 +71,9 @@ function Background() {
               .
             </li>
             <li>Launching the close beta of Nesta.</li>
-            <h4>June</h4>
+          </ul>
+          <h3 className="font-display">June</h3>
+          <ul>
             <li>
               Joining &nbsp;
               <a
@@ -66,16 +86,22 @@ function Background() {
               </a>
               &nbsp; as a volunteer.
             </li>
-            <h4>April</h4>
+          </ul>
+          <h3 className="font-display">April</h3>
+          <ul>
             <li>Learning Swedish at SFI school.</li>
-            <h4>March</h4>
+          </ul>
+          <h3 className="font-display">March</h3>
+          <ul>
             <li>
               Joined the Nesta team as a cofounder and a fullstack developer.
             </li>
           </ul>
-          <h3 id="cur-2016">2016</h3>
+          <h2 className="font-display" id="cur-2016">
+            2016
+          </h2>
+          <h3 className="font-display">October</h3>
           <ul>
-            <h4>October</h4>
             <li>
               Start working as a fullstack developer at Thingmap (now&nbsp;
               <a
@@ -91,27 +117,35 @@ function Background() {
               mobile). I dealt with Node.js, AngularJS, REACT and MongoDB. I
               also wrote a lot of tests and fixed bugs.
             </li>
-            <h4>May</h4>
+          </ul>
+          <h3 className="font-display">May</h3>
+          <ul>
             <li>Umeå Tech Arena.</li>
             <li>
               Django workshop at&nbsp;
               <a href="http://www.codemill.se/">Codemill</a>.
             </li>
           </ul>
-          <h3 id="cur-2015">2015</h3>
+          <h2 className="font-display" id="cur-2015">
+            2015
+          </h2>
+          <h3 className="font-display">September</h3>
           <ul>
-            <h4>September</h4>
             <li>
               Master's degree, first year in Computer Science at Umeå University
               as an exchange student. Where I studied Aritficial Intelligence,
               Databases and Distributed Systems.
             </li>
-            <h4>August</h4>
+          </ul>
+          <h3 className="font-display">August</h3>
+          <ul>
             <li>Moved to Umeå, Sweden.</li>
             <li>
               Graduated from the University of Nantes in Computer Science.
             </li>
-            <h4>April - July</h4>
+          </ul>
+          <h3 className="font-display">April - July</h3>
+          <ul>
             <li>
               Third internship within the Real Time Systems team of the&nbsp;
               <a
@@ -138,9 +172,11 @@ function Background() {
             ></iframe>
           </div>
 
-          <h3 id="cur-2014">2014</h3>
+          <h2 className="font-display" id="cur-2014">
+            2014
+          </h2>
+          <h3 className="font-display">September</h3>
           <ul>
-            <h4>September</h4>
             <li>
               Volunteering for the thirteenth edition of&nbsp;
               <a
@@ -153,8 +189,9 @@ function Background() {
               </a>
               , a festival about Digital art.
             </li>
-
-            <h4>June - July (12 weeks)</h4>
+          </ul>
+          <h3 className="font-display">June - July (12 weeks)</h3>
+          <ul>
             <li>
               Second internship at&nbsp;
               <a
@@ -193,9 +230,11 @@ function Background() {
             </li>
           </ul>
 
-          <h3 id="cur-2013">2013</h3>
+          <h2 className="font-display" id="cur-2013">
+            2013
+          </h2>
+          <h3 className="font-display">September</h3>
           <ul>
-            <h4>September</h4>
             <li>
               Start my bachelor degree in Computer Science at the University of
               Nantes, France.
@@ -213,14 +252,17 @@ function Background() {
               </a>
               , a festival about Digital art.
             </li>
-            <h4>July</h4>
+          </ul>
+          <h3 className="font-display">July</h3>
+          <ul>
             <li>
               Got my two-years degree in software engineering (DUT : Diplôme
               Universitaire de Technologie Informatique) from The University of
               Nantes, France.
             </li>
-
-            <h4>May - June (10 weeks)</h4>
+          </ul>
+          <h3 className="font-display">May - June (10 weeks)</h3>
+          <ul>
             <li>
               First internship at&nbsp;
               <a
@@ -259,9 +301,11 @@ function Background() {
             </li>
           </ul>
 
-          <h3 id="cur-2011">2011</h3>
+          <h2 className="font-display" id="cur-2011">
+            2011
+          </h2>
+          <h3 className="font-display">June</h3>
           <ul>
-            <h4>June</h4>
             <li>Benjamin registered on GitHub.</li>
           </ul>
         </div>

@@ -1,3 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable global-require */
+// eslint-disable-next-line import/no-extraneous-dependencies
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
@@ -6,8 +9,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // sans: ['Hack', ...defaultTheme.fontFamily.sans],
-        mono: ['Hack', ...defaultTheme.fontFamily.mono],
+        sans: ['heebo', ...defaultTheme.fontFamily.sans],
+        display: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        body: ['heebo', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         'deep-gray': '#3f3f42',

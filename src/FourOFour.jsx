@@ -53,8 +53,8 @@ function FourOFour() {
             </div>
 
             <div className="relative bg-deep-gray lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
-              <div className="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
-                <h1 className="text-3xl font-extrabold font-mono text-light-blue tracking-wide">
+              <div className="relative max-w-md mx-auto py-12 px-4 space-y-8 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
+                <h1 className="text-3xl font-extrabold font-display text-light-blue tracking-wide">
                   Lost?
                 </h1>
                 <p className="text-lg text-white">
@@ -63,7 +63,7 @@ function FourOFour() {
                   Something, something
                 </p>
                 <NavLink
-                  className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-digital-blue hover:bg-light-blue hover:shadow-none sm:inline-block sm:w-auto"
+                  className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-display font-medium text-digital-blue hover:bg-light-blue hover:shadow-none sm:inline-block sm:w-auto"
                   to="/"
                 >
                   Take me home
