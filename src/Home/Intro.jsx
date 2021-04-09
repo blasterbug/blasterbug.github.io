@@ -23,7 +23,7 @@ function Intro() {
           <div className="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
             <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
               <blockquote>
-                <div>
+                <div className="prose prose-blue prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-500 mx-auto">
                   <svg
                     className="h-12 w-12 text-deep-gray opacity-25"
                     fill="currentColor"
@@ -32,29 +32,20 @@ function Intro() {
                   >
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
-                  <p className="mt-6 text-xl font-medium text-deep-gray">
+                  <p className="mt-6 font-medium text-deep-gray">
                     I am an entrepreneur and code guru based in Umeå, Sweden. I
                     co-founded Nesta Nordics AB. At Nesta, I designed,
                     architected and lead the development of the whole stack. I
                     also use to work as a volunteer, I am a local coordinator
                     for Sea Shepherd in Umeå. I am now lead full stack developer
                     at Papperslöst AB whre I am currently refactoring and
-                    extenting their product:&nbsp;
-                    <a
-                      className="text-digital-blue underline hover:text-gray-600"
-                      href="https://www.klientlistan.se"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Klientlistan
-                    </a>
-                    .
+                    extenting their product: Klientlistan .
                   </p>
                 </div>
                 <footer className="mt-6">
-                  <p className="text-base font-medium text-deep-gray">
+                  <span className="font-medium text-deep-gray">
                     Benjamin Sientzoff
-                  </p>
+                  </span>
                 </footer>
               </blockquote>
             </div>
