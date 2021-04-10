@@ -1,5 +1,6 @@
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const fs = require('fs');
@@ -215,6 +216,23 @@ module.exports = (env) => ({
       // output: path.join(__dirname, 'dist'),
       template: path.join(__dirname, 'public', 'index.html'),
       xhtml: true,
+    }),
+    new FaviconsWebpackPlugin({
+      logo: './src/logo.svg',
+      cache: true,
+      favicons: {
+        iconsPath: '/',
+        appName: pjson.name,
+        backgroundColor: '#ffffff',
+        lang: 'en-US',
+        theme_color: '#0038ff',
+        appleStatusBarStyle: 'black-translucent',
+        display: 'standalone',
+        developerName: 'Benjamin Sientzoff',
+        pictureAspect: 'backgroundAndMargin',
+        start_url: '/', // Start URL when launching the application from a device. `string`
+        version: pjson.version,
+      },
     }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.
