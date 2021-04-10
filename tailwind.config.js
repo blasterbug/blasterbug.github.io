@@ -9,9 +9,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['heebo', ...defaultTheme.fontFamily.sans],
+        sans: ['Heebo', ...defaultTheme.fontFamily.sans],
         display: ['Montserrat', ...defaultTheme.fontFamily.sans],
-        body: ['heebo', ...defaultTheme.fontFamily.sans],
+        body: ['Heebo', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         'deep-gray': '#3f3f42',
@@ -19,7 +19,7 @@ module.exports = {
         'light-blue': '#d6e8f9',
       },
       typography: (theme) => ({
-        blue: {
+        DEFAULT: {
           css: {
             color: theme('colors.deep-gray'),
             a: {

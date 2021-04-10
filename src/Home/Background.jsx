@@ -7,7 +7,7 @@ function Background() {
         id="background"
         className="relative h-full text-lg max-w-prose mx-auto"
       >
-        <div className="mt-6 px-4 prose prose-blue prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-500 mx-auto">
+        <div className="mt-6 px-4 prose prose-sm prose-blue sm:prose lg:prose-lg xl:prose-xl mx-auto">
           <h1 className="font-display">Background</h1>
           <h2 className="font-display" id="cur-2021">
             2021
