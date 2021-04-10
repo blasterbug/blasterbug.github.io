@@ -15,7 +15,7 @@ function Intro() {
                 <img
                   className="object-cover lg:h-full lg:w-full"
                   src="https://avatars0.githubusercontent.com/u/891025"
-                  alt=""
+                  alt="Benjamin Sientzoff"
                 />
               </div>
             </div>
