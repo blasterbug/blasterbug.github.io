@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { Transition } from '@headlessui/react';
 import {
   ColorSwatchIcon,
@@ -9,12 +9,15 @@ import {
 import { NavLink } from 'react-router-dom';
 
 import Logo from '../../public/safari-pinned-tab.svg';
+import useOnClickOutside from '../hooks/useOnClickOutside';
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
+  const headerContainerRef = useRef();
+  useOnClickOutside(headerContainerRef, () => setShowMenu(() => false));
 
   return (
-    <div className="bg-white sticky top-0 z-50">
+    <div className="bg-white sticky top-0 z-50" ref={headerContainerRef}>
       <div className="maxW-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
