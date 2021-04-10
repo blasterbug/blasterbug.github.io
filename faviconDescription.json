@@ -41,7 +41,7 @@
       "backgroundColor": "#ffffff",
       "themeColor": "#ffffff",
       "manifest": {
-        "name": "blaster bug.github.io",
+        "name": "blasterbug.github.io",
         "display": "browser",
         "orientation": "notSet",
         "onConflict": "override",
