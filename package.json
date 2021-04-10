@@ -97,7 +97,7 @@
     "build": "NODE_ENV=production BABEL_ENV=production webpack --env production",
     "clean": "rimraf ./build",
     "cleanup": "rimraf ./build ./node_modules",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --branch master",
     "favicons:inject": "real-favicon inject faviconData.json public public/index.html",
     "favicons:update": "real-favicon check-for-update --fail-on-update faviconData.json",
     "favicons": "real-favicon generate faviconDescription.json faviconData.json public",
