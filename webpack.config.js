@@ -68,7 +68,7 @@ module.exports = (env) => ({
         chunkFilename: '[id].[contenthash].chunk.js',
         filename: '[id].[contenthash].js',
         path: path.join(__dirname, 'build'),
-        publicPath: process.env.PUBLIC_URL || '/',
+        publicPath: pjson.homepage || '/',
         sourceMapFilename: '[file].map[query]',
         devtoolModuleFilenameTemplate: (info) =>
           path.join(info.absoluteResourcePath).replace(/\\/g, '/'),
@@ -214,7 +214,7 @@ module.exports = (env) => ({
       // favicon: path.join(__dirname, 'public', 'favicon.ico'),
       hash: env.production,
       // output: path.join(__dirname, 'dist'),
-      template: path.join(__dirname, 'public', 'index.html'),
+      template: path.join(__dirname, 'src', 'index.html'),
       title: pjson.name,
       publicPath: env.production ? pjson.homepage : 'auto',
       xhtml: true,
