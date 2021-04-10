@@ -8,7 +8,7 @@ import {
 } from '@heroicons/react/solid';
 import { NavLink } from 'react-router-dom';
 
-import Logo from '../../public/safari-pinned-tab.svg';
+import Logo from './logo.svg';
 import useOnClickOutside from '../hooks/useOnClickOutside';
 
 function Header() {
