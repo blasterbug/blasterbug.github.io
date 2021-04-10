@@ -15,14 +15,14 @@ function PageHeader() {
           <div className="grid grid-cols-2 sm:gap-2 lg:w-max lg:m-auto  lg:gap-8">
             <div
               href="mailto:benjamin.sientzoff@yahoo.fr"
-              className="inline-flex justify-center px-4 py-2 text-sm font-medium text-gray-700 m-auto"
+              className="inline-flex justify-center px-4 py-2 text-base font-medium text-gray-700 m-auto"
             >
               <LocationMarkerIcon className="h-5 w-5 text-gray-500" />
               <p className="ml-2">Umeå, Sweden</p>
             </div>
             <a
               href="mailto:benjamin.sientzoff@yahoo.fr"
-              className="inline-flex justify-center px-4 py-2 border border-gray-300 group shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:border-digital-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-digital-blue m-auto"
+              className="inline-flex justify-center px-4 py-2 border border-gray-300 group shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:border-digital-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-digital-blue m-auto"
             >
               <MailIcon className="h-5 w-5 text-gray-500 group-hover:text-digital-blue" />
               <span className="ml-2">Get in touch</span>
