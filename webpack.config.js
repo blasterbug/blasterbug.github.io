@@ -211,11 +211,19 @@ module.exports = (env) => ({
     new webpack.ProgressPlugin(),
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({
-      favicon: path.join(__dirname, 'public', 'favicon.ico'),
+      // favicon: path.join(__dirname, 'public', 'favicon.ico'),
       hash: env.production,
       // output: path.join(__dirname, 'dist'),
       template: path.join(__dirname, 'public', 'index.html'),
+      title: pjson.name,
+      publicPath: env.production ? pjson.homepage : 'auto',
       xhtml: true,
+      templateParameters: {
+        title: pjson.name,
+        description: pjson.description,
+        keywords: pjson.keywords,
+        author: pjson.author,
+      },
     }),
     new FaviconsWebpackPlugin({
       logo: './src/logo.svg',

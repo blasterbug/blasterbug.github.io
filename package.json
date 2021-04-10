@@ -1,5 +1,6 @@
 {
   "name": "blasterbug.github.io",
+  "description": "I am an entrepreneur and code guru based in Umeå, Sweden.",
   "version": "3.0.0",
   "homepage": "http://blasterbug.github.io/",
   "bugs": "https://github.com/blasterbug/blasterbug.github.io/issues",
@@ -8,6 +9,18 @@
     "url": "git@github.com:blasterbug/blasterbug.github.io.git"
   },
   "private": true,
+  "author": "Benjamin Sientzoff <benjamin.sientzoff@yahoo.fr> (https://blasterbug.github.io)",
+  "keywords": [
+    "developer",
+    "react",
+    "javascript",
+    "nodejs",
+    "CSS",
+    "html",
+    "kubernetes",
+    "cloud native",
+    "expressjs"
+  ],
   "engines": {
     "node": ">=15",
     "npm": "NPM NOT USED - use yarn instead.",
