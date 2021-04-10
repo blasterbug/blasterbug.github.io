@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
-import { MenuIcon, XIcon } from '@heroicons/react/solid';
+import {
+  ColorSwatchIcon,
+  HomeIcon,
+  MenuIcon,
+  XIcon,
+} from '@heroicons/react/solid';
 import { NavLink } from 'react-router-dom';
 
 import Logo from '../../public/safari-pinned-tab.svg';
@@ -21,7 +26,7 @@ function Header() {
           <div className="-mr-2 -my-2 md:hidden">
             <button
               type="button"
-              className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-digital-blue hover:bgLight-blue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-digital-blue hover:bg-light-blue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               aria-expanded="false"
               onClick={() => setShowMenu((state) => !state)}
             >
@@ -29,20 +34,23 @@ function Header() {
             </button>
           </div>
           <nav className="hidden md:flex space-x-10">
-            <a
-              href="#"
-              className="text-base font-medium text-gray-500 hover:text-digital-blue"
+            <NavLink
+              exact
+              to="/"
+              className="py-3 px-5 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
+              activeClassName="text-digital-blue font-medium underline"
             >
-              Pricing
-            </a>
-            <a
-              href="#"
-              className="text-base font-medium text-gray-500 hover:text-digital-blue"
+              Home
+            </NavLink>
+            <NavLink
+              to="/portfolio"
+              className="py-3 px-5 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
+              activeClassName="text-digital-blue font-medium underline"
             >
-              Docs
-            </a>
+              Portfolio
+            </NavLink>
           </nav>
-          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
+          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0" />
         </div>
       </div>
 
@@ -65,7 +73,7 @@ function Header() {
                 <div className="-mr-2">
                   <button
                     type="button"
-                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-digital-blue hover:bgLight-blue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-digital-blue hover:bg-light-blue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                     onClick={() => setShowMenu((state) => !state)}
                   >
                     <span className="sr-only">Close menu</span>
@@ -74,131 +82,25 @@ function Header() {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-y-8">
-                  <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
+                <nav className="grid gap-y-1">
+                  <NavLink
+                    exact
+                    to="/"
+                    className="py-3 px-5 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
+                    activeClassName="text-digital-blue font-medium underline"
                   >
-                    {/* <!-- Heroicon name: outline/chart-bar --> */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-digital-blue"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium font-display">
-                      Analytics
-                    </span>
-                  </a>
+                    <HomeIcon className="flex-shrink-0 h-6 w-6 text-digital-blue" />
+                    <span className="ml-3 text-base">Home</span>
+                  </NavLink>
 
-                  <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
+                  <NavLink
+                    to="/portfolio"
+                    className="py-3 px-5 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
+                    activeClassName="text-digital-blue font-medium underline"
                   >
-                    {/* <!-- Heroicon name: outline/cursor-click --> */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-digital-blue"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium font-display">
-                      Engagement
-                    </span>
-                  </a>
-
-                  <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
-                  >
-                    {/* <!-- Heroicon name: outline/shield-check --> */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-digital-blue"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium font-display">
-                      Security
-                    </span>
-                  </a>
-
-                  <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
-                  >
-                    {/* <!-- Heroicon name: outline/view-grid --> */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-digital-blue"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium font-display">
-                      Integrations
-                    </span>
-                  </a>
-
-                  <a
-                    href="#"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-light-blue hover:text-digital-blue"
-                  >
-                    {/* <!-- Heroicon name: outline/refresh --> */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-digital-blue"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium font-display">
-                      Automations
-                    </span>
-                  </a>
+                    <ColorSwatchIcon className="flex-shrink-0 h-6 w-6 text-digital-blue" />
+                    <span className="ml-3 text-base">Portfolio</span>
+                  </NavLink>
                 </nav>
               </div>
             </div>
