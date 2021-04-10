@@ -42,11 +42,11 @@ function Intro() {
                     extenting their product: Klientlistan .
                   </p>
                 </div>
-                <footer className="mt-6">
+                {/* <footer className="mt-6">
                   <span className="font-medium text-deep-gray">
                     Benjamin Sientzoff
                   </span>
-                </footer>
+                </footer> */}
               </blockquote>
             </div>
           </div>
