@@ -1,6 +1,7 @@
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const fs = require('fs');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -208,6 +209,14 @@ module.exports = (env) => ({
   },
   plugins: [
     new webpack.ProgressPlugin(),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: './robots.txt',
+          to: 'robots.txt',
+        },
+      ],
+    }),
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({
       // favicon: path.join(__dirname, 'public', 'favicon.ico'),
@@ -223,6 +232,12 @@ module.exports = (env) => ({
         keywords: pjson.keywords,
         title: pjson.name,
         url: pjson.homepage,
+        metas: fs.readFileSync(
+          path.join(__dirname, 'build', 'html_code.html'),
+          {
+            encoding: 'utf-8',
+          },
+        ),
       },
     }),
     // Makes some environment variables available to the JS code, for example:
